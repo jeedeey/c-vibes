@@ -5,6 +5,7 @@ import PostListing from "../components/PostListing";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
 
+
 export default class CategoryTemplate extends React.Component {
   render() {
     const { category } = this.props.pageContext;

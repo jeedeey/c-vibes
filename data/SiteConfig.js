@@ -1,26 +1,26 @@
 const config = {
-  siteTitle: "Gatsby Material Starter", // Site title.
-  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  siteTitle: "ConfluenceVibes", // Site title.
+  siteTitleShort: "C Vibes", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Confluence Lokoja vibes", // Alternative site title for SEO.
+  siteLogo: "./logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteUrl: "https://confluencevibes.com", // Domain of your website without pathPrefix.
+  pathPrefix: "/confluence-vibes", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Confluence Vibes bringing delight entertainments, promoting talents and broadcasting news update in kogi state and the Globe.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Gatsby Material Starter RSS feed", // Title of the RSS feed
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
+  siteRssTitle: "Confluence Vibes RSS feed", // Title of the RSS feed
+  siteFBAppID: "948792115615103", // FB Application ID for using app insights
+  siteGATrackingID: "UA-179040282-1", // Tracking code ID for google analytics.
+  disqusShortname: "http://disqus.com/by/cvibes", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Material User", // Username to display in the author segment.
-  userEmail: "MaterialUser@example.com", // Email used for RSS feed's author segment
+  userName: "9-Life", // Username to display in the author segment.
+  userEmail: "confluencevibes@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Pole, Earth", // User location to display in the author segment.
+  userLocation: "Lokoja, Kogi State", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "No risk no reward.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
@@ -39,7 +39,7 @@ const config = {
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020. C Vibes", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
