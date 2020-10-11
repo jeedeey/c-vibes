@@ -3,7 +3,6 @@ import SideDrawer from "../SideDrawer";
 import Toolbar from "../ToolBar";
 import Backdrop from "../Backdrop";
 import Footer from "../Footer";
-import GetNavList from "./NavList";
 import "./Navigation.scss";
 
 class Navigation extends Component {
@@ -22,7 +21,7 @@ class Navigation extends Component {
   }; 
   
   render() { 
-    const { children, config, LocalTitle } = this.props;
+    const { children, LocalTitle } = this.props;
     const footerLinks = LocalTitle !== "About";
     
     let backdrop;
@@ -32,10 +31,9 @@ class Navigation extends Component {
     }
     return (
       <div
-        drawerTitle={config.siteTitle}
+        
         toolbarTitle={LocalTitle}
-        contentClassName="main-content"
-        navItems={GetNavList(config)}
+        
         
       >
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
