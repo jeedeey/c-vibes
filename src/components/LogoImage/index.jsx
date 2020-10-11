@@ -3,7 +3,7 @@ import {StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const ImageLogo = () => (
+const LogoImage = () => (
     <StaticQuery
         query={graphql`
           query {
@@ -21,4 +21,4 @@ const ImageLogo = () => (
     />
 )
 
-export default ImageLogo
+export default LogoImage
