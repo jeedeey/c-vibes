@@ -1,4 +1,5 @@
-import React,{Component} from "react";
+import React from "react";
+import { Link } from "gatsby";
 import UserLinks from "../UserLinks";
 import config from "../../../data/SiteConfig";
 
@@ -12,8 +13,12 @@ const SideDrawer = props => {
     return (
         <nav className={drawerClasses}>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li>
+              <Link className="link" activeClassName="active" to="/">Home</Link>
+            </li>
+            <li>
+              <Link className="link" activeClassName="active" to="/about">About</Link>
+            </li>
             <UserLinks config={config} />
           </ul>
         </nav>

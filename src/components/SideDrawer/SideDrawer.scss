@@ -14,7 +14,7 @@
 .side-drawer.open {
     transform: translateX(0);
 }
-.side-drawer ul {
+ul {
 
     padding: 10px;
     height: 100%;
@@ -23,21 +23,21 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.side-drawer li {
-    margin: 0.5rem 0
+li {
+    margin: 0.5rem 0;
 }
-.side-drawer li:active {
-    border-bottom: 1px solid #ffa600;
-}
-.side-drawer a {
-    padding: 10px;
+
+.link {
+    padding: 5px 10px;
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.side-drawer a:hover,
-.side-drawer a:active {
+.link:hover{
     color: #ffa600;
+}
+.active{
+    border-bottom: 1px solid #ffa600;
 }
 
 @media (min-width: 769px) {

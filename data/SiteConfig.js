@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://confluencevibes.com", // Domain of your website without pathPrefix.
   pathPrefix: "/confluence-vibes", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "Confluence Vibes bringing delight entertainments, promoting talents and broadcasting news update in kogi state and the Globe.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "bringing delight entertainments, promoting talents and broadcasting news update in kogi state and the Globe.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Confluence Vibes RSS feed", // Title of the RSS feed
   siteFBAppID: "948792115615103", // FB Application ID for using app insights

@@ -1,25 +1,34 @@
 import React, {Component} from "react";
+import {Link} from "gatsby";
 import UserLinks from "../UserLinks";
 import config from "../../../data/SiteConfig";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
-import toolbarStyles from "./ToolBar.scss"
+import "./ToolBar.scss"
 
 
 class Toolbar extends Component {
     render() {
       return (
-        <header className={toolbarStyles.toolbar}>
-            <nav className="toolbar_nav">
+        <header className="toolbar">
+            <nav className="toolbar_nav" >
                 <div className="toolbar_logo">
-                    <a href="/"><img src={config.siteLogo}/></a>
-                    <a href="/">{config.siteTitle}</a>
+                    <Link className="link"  to="/">
+                        <img src={config.siteLogo}/>
+                    </Link>
+                    <Link className="link"  to="/">
+                        {config.siteTitle}
+                    </Link>
                     
                 </div>
                 <div className="spacer" />
                 <div className="toolbar_nav-items">
                     <ul>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Tags</a></li>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className="link" to="/about">About</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="userlinks-container">
