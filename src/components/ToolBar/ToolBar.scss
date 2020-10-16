@@ -1,9 +1,10 @@
+@import "../../layout/theme.scss";
 .toolbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #232323;
+    background: $md-primary-color;
     height: 56px;
     z-index: 100;
 }
@@ -43,7 +44,7 @@
 }
 .toolbar_nav-items a:hover,
 .toolbar_nav-items a:active {
-    color: #ffa600;
+    color: $md-secondary-color;
 }
 @media (max-width: 1025px){
     .toolbar_nav-items a {

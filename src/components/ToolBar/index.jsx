@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "gatsby";
 import UserLinks from "../UserLinks";
+import Logo from "../../../static/logos/logo-48.png";
 import config from "../../../data/SiteConfig";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import "./ToolBar.scss"
@@ -13,7 +14,7 @@ class Toolbar extends Component {
             <nav className="toolbar_nav" >
                 <div className="toolbar_logo">
                     <Link className="link"  to="/">
-                        <img src={config.siteLogo}/>
+                        <img src={Logo}/>
                     </Link>
                     <Link className="link"  to="/">
                         {config.siteTitle}
@@ -25,9 +26,10 @@ class Toolbar extends Component {
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
+                            
                         </li>
                         <li>
-                            <Link className="link" to="/about">About</Link>
+                        <Link to="/about">About</Link>
                         </li>
                     </ul>
                 </div>

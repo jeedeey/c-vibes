@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://github.com/jeedeey/confluencevibes/sitemap.xml
+sitemap: https://confluencevibes.com/sitemap.xml
