@@ -1,11 +1,12 @@
+@import "../../layout/theme.scss";
 .side-drawer {
     height: 100%;
-    background: #232323;
+    background: $md-primary-color;
     position: fixed;
     top: 56px;
     left: 0;
     width: 70%;
-    max-width: 400px;
+    max-width: 300px;
     z-index: 200;
     transform: translateX(-110%);
     transition: transform 0.4s ease-out;
@@ -13,7 +14,7 @@
 .side-drawer.open {
     transform: translateX(0);
 }
-ul {
+.side-drawer ul {
 
     padding: 10px;
     height: 100%;
@@ -22,21 +23,22 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
 }
-li {
+.side-drawer li {
     margin: 0.5rem 0;
 }
 
-.link {
-    padding: 5px 10px;
+.side-drawer .link {
+    padding: 2px 10px;
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.link:hover{
-    color: #ffa600;
+.side-drawer .link:hover{
+    color: $md-secondary-color;
+    padding: 10px 20px;
 }
-.active{
-    border-bottom: 1px solid #ffa600;
+.side-drawer .active{
+    border-bottom: 2px solid $md-secondary-color;
 }
 
 @media (min-width: 769px) {

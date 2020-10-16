@@ -17,6 +17,15 @@ const SideDrawer = props => {
               <Link className="link" activeClassName="active" to="/">Home</Link>
             </li>
             <li>
+              <Link className="link" activeClassName="active" to="/category">Category</Link>
+            </li>
+            <li>
+              <Link className="link" activeClassName="active" to="/tags">tags</Link>
+            </li>
+            <li>
+              <Link className="link" activeClassName="active" to="/contact">Contact</Link>
+            </li>
+            <li>
               <Link className="link" activeClassName="active" to="/about">About</Link>
             </li>
             <UserLinks config={config} />
