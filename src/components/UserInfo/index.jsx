@@ -46,7 +46,7 @@ class UserInfo extends Component {
                 options={{ count: expanded ? "none" : "none" }}
               />
             ) : (
-              "Author"
+              "User"
             )
           }
         />

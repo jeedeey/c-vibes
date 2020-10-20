@@ -14,7 +14,7 @@ const config = {
   disqusShortname: "c-vibes", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "9-Life", // Username to display in the author segment.
+  userName: "cvibes team", // Username to display in the author segment.
   userEmail: "confluencevibes@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Lokoja, Kogi State", // User location to display in the author segment.
@@ -25,17 +25,17 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
+      url: "https://github.com",
       iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com",
       iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "confluencevibe@gmail.com",
       iconClassName: "fa fa-envelope",
     },
   ],

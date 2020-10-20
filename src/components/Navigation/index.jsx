@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import SideDrawer from "../SideDrawer";
 import Toolbar from "../ToolBar";
 import Backdrop from "../Backdrop";
-import Advert from "../Advert";
 import Footer from "../Footer";
 import "./Navigation.scss";
 
@@ -41,7 +40,6 @@ class Navigation extends Component {
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
         <div style={{marginTop: "56px"}} className="main-container">{children}</div>
-        <Advert />
         <Footer userLinks={footerLinks} />
       </div>
     );
