@@ -2,7 +2,7 @@
 title: "NYSC human rights violation"
 cover: "nysc.jpg"
 category: "article"
-date: "2020-10-20"
+date: "2020-10-19"
 tags:
     - thouhts
     
