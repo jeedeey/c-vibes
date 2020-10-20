@@ -11,7 +11,7 @@ const config = {
   siteRssTitle: "Confluence Vibes RSS feed", // Title of the RSS feed
   siteFBAppID: "948792115615103", // FB Application ID for using app insights
   siteGATrackingID: "UA-179040282-1", // Tracking code ID for google analytics.
-  disqusShortname: "http://disqus.com/by/cvibes", // Disqus shortname.
+  disqusShortname: "c-vibes", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "9-Life", // Username to display in the author segment.

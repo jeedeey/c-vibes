@@ -1,10 +1,11 @@
 ---
-title: "Beautiful Roses"
-cover: "1.jpg"
-date: "2017-03-01"
-category: "tech"
+title: "hot muscic Babalowe"
+cover: "babalowe.jpeg"
+date: "2020-10-20"
+category: "music"
 tags:
-    - tag
+    - rap
+    - dailet
 ---
 
 # Domos primus caelum taedia

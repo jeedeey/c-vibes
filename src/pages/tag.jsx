@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Chip from "react-md/lib/Chips";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
+import "./tag.scss";
 
 
 class TagsPage extends React.Component {
@@ -29,7 +30,7 @@ class TagsPage extends React.Component {
                 <Link 
                 to={`/tags/${_.kebabCase(tag.fieldValue)}/`}
                 >
-                  <Chip label={tag.fieldValue} />
+                  <Chip label={tag.fieldValue} className="post-preview-tags"/>
                 </Link>
               </li>
             ))}

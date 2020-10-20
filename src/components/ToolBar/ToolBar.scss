@@ -42,6 +42,9 @@
     color: white;
     text-decoration: none;
 }
+.toolbar_nav-items .active{
+    border-bottom: 2px solid $md-secondary-color;
+}
 .toolbar_nav-items a:hover,
 .toolbar_nav-items a:active {
     color: $md-secondary-color;
