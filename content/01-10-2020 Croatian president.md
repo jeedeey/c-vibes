@@ -2,7 +2,7 @@
 title: "Croatian president! What lies       beneath her beauty"
 cover: "Kolinda.jpg"
 category: "article"
-date: "2020-10-01"
+date: "2020-10-20"
 tags:
     - thoughts
     - foreign
