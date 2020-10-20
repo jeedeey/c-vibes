@@ -2,10 +2,9 @@
 title: "NYSC human rights violation"
 cover: "nysc.jpg"
 category: "article"
-date: "2020-09-27"
+date: "2020-10-20"
 tags:
-    - law
-    - thoughts
+    - thouhts
     
 ---
 

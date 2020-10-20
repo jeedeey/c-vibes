@@ -4,7 +4,7 @@ cover: "monetize.jpg"
 category: "tutorial"
 tags:
     - youtube
-date: "2020-09-27"
+date: "2020-10-20"
 ---
 
 You may have been waiting for this! Now its here! Don't forget to thank me later!
