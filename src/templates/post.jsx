@@ -13,6 +13,7 @@ import SocialLinks from "../components/SocialLinks";
 import PostSuggestions from "../components/PostSuggestions";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
+import authors from "../../data/authors";
 import "./b16-tomorrow-dark.css";
 import "./post.scss";
 
@@ -50,6 +51,7 @@ export default class PostTemplate extends React.Component {
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
+    const author = authors.find(x => x.name === post.author);
 
     if (!post.id) {
       post.id = slug;
@@ -57,7 +59,7 @@ export default class PostTemplate extends React.Component {
 
     const coverHeight = mobile ? 180 : 350;
     return (
-      <Layout location={location}>
+      <Layout location={location} >
         <div className="post-page md-grid md-grid--no-spacing">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
@@ -89,7 +91,7 @@ export default class PostTemplate extends React.Component {
             </Card>
             <UserInfo
               className="md-grid md-cell md-cell--12"
-              config={config}
+              author={author} 
               expanded={expanded}
             />
             <Disqus postNode={postNode} expanded={expanded} />
@@ -119,6 +121,7 @@ export const pageQuery = graphql`
         date
         category
         tags
+        author
       }
       fields {
         slug

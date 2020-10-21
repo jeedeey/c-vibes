@@ -189,6 +189,7 @@ module.exports = {
                       date
                       category
                       tags
+                      author
                     }
                   }
                 }

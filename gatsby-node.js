@@ -2,6 +2,7 @@ const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
 const siteConfig = require("./data/SiteConfig");
+const authors = require("./data/authors");
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
@@ -61,6 +62,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 tags
                 category
                 date
+                author
               }
             }
           }
@@ -117,6 +119,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: postPage,
       context: {
         slug: edge.node.fields.slug,
+        imageUrl: authors.find(x => x.name === edge.node.frontmatter.author).imageUrl,
         nexttitle: nextEdge.node.frontmatter.title,
         nextslug: nextEdge.node.fields.slug,
         prevtitle: prevEdge.node.frontmatter.title,

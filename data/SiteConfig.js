@@ -24,9 +24,14 @@ const config = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com",
-      iconClassName: "fa fa-github",
+      label: "Whatsapp",
+      url: "https://whatsapp.com",
+      iconClassName: "fa fa-whatsapp",
+    },
+    {
+      label: "Facebook",
+      url: "https://facebook.com",
+      iconClassName: "fa fa-facebook",
     },
     {
       label: "Twitter",
@@ -35,7 +40,7 @@ const config = {
     },
     {
       label: "Email",
-      url: "confluencevibe@gmail.com",
+      url: "https://confluencevibe@gmail.com",
       iconClassName: "fa fa-envelope",
     },
   ],

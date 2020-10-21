@@ -6,24 +6,24 @@ import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import IconSeparator from "react-md/lib/Helpers/IconSeparator";
 import { Follow } from "react-twitter-widgets";
-import UserLinks from "../UserLinks";
+import AuthorLinks from "../AuthorLinks";
 import "./UserInfo.scss";
 
 class UserInfo extends Component {
   render() {
     const {
-      userAvatar,
-      userName,
-      userLocation,
-      userDescription,
+      name,
+      location,
+      bio,
+      imageUrl,
       userLinks,
-      userTwitter
-    } = this.props.config;
+      authorTwitter,
+    } = this.props.author;
     const { expanded } = this.props;
     const userLinksElement = (
-      <UserLinks config={this.props.config} labeled={expanded} />
+      <AuthorLinks author={this.props.author} labeled={expanded} />
     );
-    if (!userAvatar && !userName && !userLocation && !userDescription) {
+    if (!imageUrl && !name && !location && !bio) {
       if (userLinks) {
         return (
           <Card className="md-grid md-cell md-cell--12 user-info">
@@ -37,10 +37,10 @@ class UserInfo extends Component {
       <Card className="md-grid md-cell md-cell--12 user-info">
         <CardTitle
           expander={!expanded}
-          avatar={userAvatar && <Avatar src={userAvatar} role="presentation" />}
-          title={userName && userName}
+          avatar={imageUrl && <Avatar src={imageUrl} role="presentation"  />}
+          title={name && name}
           subtitle={
-            userTwitter ? (
+            authorTwitter ? (
               <Follow
                 username={userTwitter}
                 options={{ count: expanded ? "none" : "none" }}
@@ -51,12 +51,12 @@ class UserInfo extends Component {
           }
         />
         <CardText expandable={!expanded}>
-          {userLocation && (
-            <IconSeparator label={userLocation} iconBefore>
+          {location && (
+            <IconSeparator label={location} iconBefore>
               <FontIcon iconClassName="fa fa-map-marker" />
             </IconSeparator>
           )}
-          <p>{userDescription && userDescription}</p>
+          <p>{bio && bio}</p>
           {userLinksElement}
         </CardText>
       </Card>

@@ -3,6 +3,7 @@ title: "NYSC human rights violation"
 cover: "nysc.jpg"
 category: "article"
 date: "2020-10-19"
+author: "taiye man"
 tags:
     - thouhts
     
