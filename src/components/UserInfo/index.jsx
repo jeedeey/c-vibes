@@ -15,6 +15,7 @@ class UserInfo extends Component {
       name,
       location,
       bio,
+      field,
       imageUrl,
       userLinks,
       authorTwitter,
@@ -23,7 +24,7 @@ class UserInfo extends Component {
     const userLinksElement = (
       <AuthorLinks author={this.props.author} labeled={expanded} />
     );
-    if (!imageUrl && !name && !location && !bio) {
+    if (!imageUrl && !name && !location && !bio && !field) {
       if (userLinks) {
         return (
           <Card className="md-grid md-cell md-cell--12 user-info">
@@ -49,6 +50,7 @@ class UserInfo extends Component {
               "User"
             )
           }
+          subtitle={field && field}
         />
         <CardText expandable={!expanded}>
           {location && (

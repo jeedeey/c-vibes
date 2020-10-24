@@ -3,6 +3,7 @@ const authors = [
         name: "sam jay",
         imageUrl: "./assets/sam.jpg",
         bio: "small but mighty",
+        field: "developer",
         location: "lkj",
         authorTwitter: "",
         userLinks: [
@@ -33,6 +34,7 @@ const authors = [
         imageUrl: "./assets/taiye.jpg",
         bio: "is all about project",
         location: "abj",
+        field: "writer",
         userLinks: [
             {
               label: "Whatsapp",
