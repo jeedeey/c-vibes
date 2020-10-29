@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StaticQuery, graphql } from "gatsby";
+import {Link, StaticQuery, graphql } from "gatsby";
 import BackgroundImage from 'gatsby-background-image';
 import "./BackgroundImage.scss";
 
@@ -26,9 +26,9 @@ class queryBackground extends Component {
           fadeIn
         >
           <div className="black-overlay">
-            <div className="content-box">
-              if you consider your content fit for publication click here
-            </div>
+            <p className="content-box">
+              send us your advert, content for publication contact us <Link className="link" to="/contact">click here</Link>
+            </p>
           </div>
         </BackgroundImage>
         )}

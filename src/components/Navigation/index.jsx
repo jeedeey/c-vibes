@@ -41,7 +41,7 @@ class Navigation extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <div style={{marginTop: "56px"}} className="main-container">{children}</div>
+        <div className="main-container">{children}</div>
         
         <Advert />
         <Footer userLinks={footerLinks} />

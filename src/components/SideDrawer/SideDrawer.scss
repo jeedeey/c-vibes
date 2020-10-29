@@ -1,7 +1,7 @@
 @import "../../layout/theme.scss";
 .side-drawer {
     height: 100%;
-    background: $md-primary-color;
+    background: $md-tertiary-color;
     position: fixed;
     top: 56px;
     left: 0;
@@ -15,7 +15,8 @@
     transform: translateX(0);
 }
 .side-drawer ul {
-    padding: 10px;
+    margin-top: -10px;
+    padding: 20px;
     height: 100%;
     list-style: none;
     display: flex;
@@ -28,9 +29,9 @@
 
 .side-drawer .link {
     padding: 2px 0px;
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .side-drawer .link:hover{
     color: $md-secondary-color;

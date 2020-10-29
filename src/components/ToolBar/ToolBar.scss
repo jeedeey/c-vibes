@@ -5,12 +5,12 @@ header {
     left: 0;
     width: 100%;
     height: 56px;
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.2);
     z-index: 100;
     transition:0.5s;
 }
 header.black {
-    background: rgb(39, 13, 13);
+    background: $md-tertiary-color;
 }
 .toolbar_nav {
     display: flex;
@@ -22,13 +22,14 @@ header.black {
 .toolbar_logo {
     display: flex;
     align-items:  center;
+    margin-bottom: -2px;
 }
 .toolbar_logo img{
-    max-width: 45px;
+    max-width: 40px;
 }
-.toolbar_logo .link {
+.toolbar_logo .title {
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .spacer {
     flex: 1;
@@ -58,13 +59,18 @@ header.black {
         font-size: 1rem;
     }
 }
-
+.userlinks{
+    margin-top: -10px;
+}
 @media (max-width: 768px) {
-    .toolbar_nav-items, .userlinks-container {
+    .toolbar_nav-items, .userlinks {
         display: none;
     }
     .toolbar_logo img{
-        max-width: 40px;
+        max-width: 35px;
+    }
+    .toolbar_logo .title {
+        font-size: 1.4rem;
     }
 }
 

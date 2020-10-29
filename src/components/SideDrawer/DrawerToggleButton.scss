@@ -1,6 +1,8 @@
+@import "../../layout/theme.scss";
 .toggle_button-wrap{
     padding: 5px;
-    border-radius: 100px;
+    border-radius: 12px;
+    
 }
 
 .toggle-button {
@@ -19,7 +21,7 @@
     outline: none;
 }
 .toggle-button_line {
-    width: 30px;
+    width: 28px;
     height: 3px;
-    background: white;
+    background: $md-tertiary-color;
 }

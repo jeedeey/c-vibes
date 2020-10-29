@@ -28,7 +28,7 @@ const SideDrawer = props => {
             <li>
               <Link className="link" activeClassName="active" to="/about">About</Link>
             </li>
-            <UserLinks config={config} />
+            <li><UserLinks config={config} /></li>
           </ul>
         </nav>
     );

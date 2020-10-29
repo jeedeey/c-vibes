@@ -4,6 +4,7 @@ import _ from "lodash";
 import { Link, graphql } from "gatsby";
 import Chip from "react-md/lib/Chips";
 import Layout from "../layout";
+import BackgroundImage from "../components/BackgroundImage";
 import config from "../../data/SiteConfig";
 import "./tag.scss";
 
@@ -24,6 +25,7 @@ class TagsPage extends React.Component {
             <title>{`Posts tagged as "${tags}" | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}/alltag/${tags}`} />
           </Helmet>
+          <BackgroundImage />
           <div className="tag-container">
             { tags.map(tag => (
                 <div key={tag.fieldValue} style={{ listStyle: "none" }}>

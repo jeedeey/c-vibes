@@ -30,36 +30,37 @@ class Toolbar extends Component {
       return (
         <header className={this.state.className}>
             <nav  className="toolbar_nav"  >
-                <div className="toolbar_logo">
-                    <Link className="link"  to="/">
+                <Link to="/" className="toolbar_logo">
+                    <div className="logo">
                         <img src={Logo}/>
-                    </Link>
-                    <Link className="link"  to="/">
+                    </div>
+                    <div className="title">
                         {config.siteTitle}
-                    </Link>
+                    </div>
                     
-                </div>
+                </Link>
                 <div className="spacer" />
                 <div className="toolbar_nav-items">
                     <ul>
                     <li>
-                        <Link className="link" activeClassName="active" to="/">Home</Link>
+                        <Link activeClassName="active" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className="link" activeClassName="active" to="/category">Category</Link>
+                        <Link activeClassName="active" to="/category">Category</Link>
                     </li>
                     <li>
-                        <Link className="link" activeClassName="active" to="/tag">tags</Link>
+                        <Link activeClassName="active" to="/tag">tags</Link>
                     </li>
                     <li>
-                        <Link className="link" activeClassName="active" to="/contact">Contact</Link>
+                        <Link activeClassName="active" to="/contact">Contact</Link>
                     </li>
                     <li>
-                        <Link className="link" activeClassName="active" to="/about">About</Link>
+                        <Link activeClassName="active" to="/about">About</Link>
                     </li>
                     </ul>
                 </div>
-                <div className="userlinks-container">
+                <div className="spacer" />
+                <div className="userlinks">
                     <UserLinks config={config} />
                 </div> 
                 <div className="toolbar_toggle-button">

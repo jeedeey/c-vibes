@@ -114,6 +114,7 @@ module.exports = {
         background_color: "#e0e0e0",
         theme_color: "#c62828",
         display: "minimal-ui",
+        icon: `src/favicon.png`,
         icons: [
           {
             src: "/logos/logo-192.png",

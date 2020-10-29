@@ -10,6 +10,18 @@ class Contact extends Component {
           <div className="contact-wrapper">
             
             <div className="contact-main">
+            <div className="contact-form">
+                <div class="contact-heading">
+                  <h2>Get In Touch</h2>
+                  <h5>Don't hesitate to contact us</h5>
+                </div>
+                <form action="#" method="post">
+                    <input type="text" name="message-name" className="form-control mb-30" placeholder="Your Name" />
+                    <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email" />
+                    <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn poca-btn">Send Message</button>
+                </form>
+              </div>
               <div className="contact-info">
                 <div className="contact-heading mb-50">
                   <h2>Contact Info</h2>
@@ -21,18 +33,6 @@ class Contact extends Component {
                 <h5>Phone: +01-3-8888-6868</h5>
                 <h5>Email: info@colorlib.com </h5>
                 <h5>Open Hours: Mon - Fri: 8:00 AM to 6:00 PM</h5>
-              </div>
-              <div className="contact-form">
-                <div class="contact-heading">
-                  <h2>Get In Touch</h2>
-                  <h5>Don't hesitate to contact us</h5>
-                </div>
-                <form action="#" method="post">
-                    <input type="text" name="message-name" className="form-control mb-30" placeholder="Your Name" />
-                    <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email" />
-                    <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn poca-btn">Send Message</button>
-                </form>
               </div>
             </div>
           </div>
