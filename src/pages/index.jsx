@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import BackgroundImage from "../components/BackgroundImage";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
@@ -17,6 +18,7 @@ class Index extends React.Component {
             <link rel="canonical" href={`${config.siteUrl}`} />
           </Helmet>
           <SEO postEdges={postEdges} />
+          <BackgroundImage />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

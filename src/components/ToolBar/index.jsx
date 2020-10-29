@@ -8,10 +8,28 @@ import "./ToolBar.scss"
 
 
 class Toolbar extends Component {
+    state ={className:"" };
+  
+    componentDidMount(){
+        window.addEventListener("scroll", this.handleScroll);
+    }
+  
+    handleScroll=()=>{
+        if (window.pageYOffset > 0) {
+            if(!this.state.className){
+                this.setState({ className: "black" });   
+            }
+        }else {
+            if(this.state.className){
+                this.setState({ className: "" });
+            }
+        }
+    }
+
     render() {
       return (
-        <header className="toolbar">
-            <nav className="toolbar_nav" >
+        <header className={this.state.className}>
+            <nav  className="toolbar_nav"  >
                 <div className="toolbar_logo">
                     <Link className="link"  to="/">
                         <img src={Logo}/>

@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../layout";
-import About from "../components/About";
+import Contact from "../components/Contact";
 import config from "../../data/SiteConfig";
 
 class ContactPage extends Component {
   render() {
     return (
-      <Layout location={this.props.location} title="About">
+      <Layout location={this.props.location} title="Contact">
         <div className="about-container">
           <Helmet>
-            <title>{`About | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/about/`} />
+            <title>{`contact | ${config.siteTitle}`}</title>
+            <link rel="canonical" href={`${config.siteUrl}/contact/`} />
           </Helmet>
-          <About />
+          <Contact />
         </div>
       </Layout>
     );

@@ -1,12 +1,16 @@
 @import "../../layout/theme.scss";
-.toolbar {
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: $md-primary-color;
     height: 56px;
+    background-color: transparent;
     z-index: 100;
+    transition:0.5s;
+}
+header.black {
+    background: rgb(39, 13, 13);
 }
 .toolbar_nav {
     display: flex;
@@ -14,6 +18,7 @@
     align-items:  center;
     padding: 0 1rem;
 }
+
 .toolbar_logo {
     display: flex;
     align-items:  center;
@@ -34,7 +39,7 @@
     display: flex;
 }
 .toolbar_nav-items li {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 .toolbar_nav-items a {
     font-size: 1.3rem;

@@ -1,0 +1,83 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+
+    .contact-main {
+        max-width: 640px;
+        margin: 20px 10px !important;
+
+        @media (max-width: 360px - 1px) {
+            margin: 5px 0 !important;
+        }
+    }
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+    @media only screen and (max-width: 767px) {
+      .contact-info {
+        margin-bottom: 100px; } }
+    .contact-info .contact-heading h2 {
+      display: block;
+      text-align: left;
+      color: black;
+      margin-bottom: 20px;
+      font-size: 36px; }
+      @media only screen and (max-width: 767px) {
+        .contact-info .contact-heading h2 {
+          margin-bottom: 5px;
+          font-size: 24px; } }
+    .contact-info .contact-heading h6 {
+      margin-bottom: 30px;
+      color: black;
+      font-size: 18px; }
+      @media only screen and (max-width: 767px) {
+        .contact-info .contact-heading h6 {
+          font-size: 14px; } }
+    .contact-info .contact-heading p {
+      margin-bottom: 0; }
+    .contact-info h5 {
+      margin-bottom: 10px;
+      font-weight: 400; }
+      @media only screen and (max-width: 767px) {
+        .contact-info h5 {
+          font-size: 16px; } }
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+  .contact-form .contact-heading {
+    margin-bottom: 30px; }
+    .contact-form .contact-heading h2 {
+      display: block;
+      text-align: left;
+      color: black;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      font-size: 36px; }
+      @media only screen and (max-width: 767px) {
+        .contact-form .contact-heading h2 {
+          margin-bottom: 5px;
+          font-size: 24px; } }
+    .contact-form .contact-heading h5 {
+      margin-bottom: 0;
+      color: black;
+      font-size: 18px; }
+      @media only screen and (max-width: 767px) {
+        .contact-form .contact-heading h5 {
+          font-size: 14px; } }
+  .contact-form .form-control {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-style: italic;
+    text-transform: capitalize; }
+    .contact-form .form-control:focus {
+      box-shadow: none;
+      border-color: #f55656; }
+  .contact-form textarea.form-control {
+    height: 110px;
+    padding: 15px; }

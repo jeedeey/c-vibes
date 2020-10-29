@@ -1,29 +1,16 @@
-import React from "react";
-import { Helmet } from "react-helmet";
+import React, {Component} from "react";
 import _ from "lodash";
-import { Link, graphql } from "gatsby";
+import { Link,  graphql } from "gatsby";
 import Chip from "react-md/lib/Chips";
-import Layout from "../layout";
-import config from "../../data/SiteConfig";
-import "./tag.scss";
+import "./AllTags.scss";
 
 
-class TagsPage extends React.Component {
+class Tags extends Component {
     render() {
       const { data } = this.props;
-      const pageTitle = "Tags";
       const tags = data.tagsGroup.group;
   
       return (
-        <Layout 
-        location={this.props.location}
-        title={pageTitle}
-        >
-          <div>
-          <Helmet>
-            <title>{`Posts tagged as "${tags}" | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/alltag/${tags}`} />
-          </Helmet>
           <div className="tag-container">
             { tags.map(tag => (
                 <div key={tag.fieldValue} style={{ listStyle: "none" }}>
@@ -35,13 +22,11 @@ class TagsPage extends React.Component {
               </div>
             ))}
           </div>
-          </div>
-        </Layout>
       )
     }
   }
   
-  export default TagsPage
+  export default Tags
 
 export const pageQuery = graphql`
   query {

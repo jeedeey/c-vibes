@@ -1,27 +1,41 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import React, { Component } from "react";
+import { StaticQuery, graphql } from "gatsby";
+import BackgroundImage from 'gatsby-background-image';
+import "./BackgroundImage.scss";
 
-
-export default ({ data }) => {
-  const sources = data.placeholderImage.childImageSharp.fluid
-
-  return (
-    <div>
-      <h1>Hello art-directed gatsby-image</h1>
-      <Img fluid={sources} />
-    </div>
-  )
-}
-
-export const query = graphql`
-query {
-  placeholderImage: file(relativePath: {eq: "8.jpg"}) {
-      childImageSharp {
-          fluid(maxWidth: 1800) {
-            ...GatsbyImageSharpFluid
+class queryBackground extends Component {
+  render() {
+    
+    return (
+      <StaticQuery
+      query={graphql`
+      query {
+        desktop: file(relativePath: { eq: "Confluence.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1800) {
+              ...GatsbyImageSharpFluid
+            }
           }
+        }
       }
+    `}
+        render={data => (
+          <BackgroundImage
+          className="masthead"
+          fluid={data.desktop.childImageSharp.fluid}
+          fadeIn
+        >
+          <div className="black-overlay">
+            <div className="content-box">
+              if you consider your content fit for publication click here
+            </div>
+          </div>
+        </BackgroundImage>
+        )}
+      />
+    );
   }
 }
-`;
+
+export default queryBackground;
+
