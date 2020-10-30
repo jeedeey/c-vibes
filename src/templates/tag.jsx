@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import BackgroundImage from "../components/BackgroundImage";
 import PostListing from "../components/PostListing";
 import config from "../../data/SiteConfig";
 
@@ -21,7 +20,6 @@ export default class TagTemplate extends React.Component {
             <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
           </Helmet>
-          <BackgroundImage />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
-import BackgroundImage from "../components/BackgroundImage";
 import PostListing from "../components/PostListing";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
@@ -26,7 +25,6 @@ export default class CategoryTemplate extends React.Component {
               href={`${config.siteUrl}/categories/${category}`}
             />
           </Helmet>
-          <BackgroundImage />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
