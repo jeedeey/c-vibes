@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import SideDrawer from "../SideDrawer";
 import Toolbar from "../ToolBar";
-import AllTags from "../AllTags";
 import Advert from "../Advert";
 import Backdrop from "../Backdrop";
 import Footer from "../Footer";
