@@ -20,7 +20,7 @@ const SideDrawer = props => {
               <Link className="link" activeClassName="active" to="/category">Category</Link>
             </li>
             <li>
-              <Link className="link" activeClassName="active" to="/tags/">Tags</Link>
+              <Link className="link" activeClassName="active" to="/tag">Tags</Link>
             </li>
             <li>
               <Link className="link" activeClassName="active" to="/contact">Contact</Link>
