@@ -19,7 +19,7 @@ class Contact extends Component {
                     <input type="text" name="message-name" className="form-control mb-30" placeholder="Your Name" />
                     <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email" />
                     <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn poca-btn">Send Message</button>
+                    <button>Send Message</button>
                 </form>
               </div>
               <div className="contact-info">
