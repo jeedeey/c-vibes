@@ -15,7 +15,8 @@ class Contact extends Component {
                   <h2>Get In Touch</h2>
                   <h5>Don't hesitate to contact us</h5>
                 </div>
-                <form name="contact" method="post" data-netlify="true">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
                     <input type="text" name="message-name" className="form-control mb-30" placeholder="Your Name" />
                     <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email" />
                     <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
