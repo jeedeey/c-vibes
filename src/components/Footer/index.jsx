@@ -17,9 +17,17 @@ class Footer extends Component {
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
         <div className="notice-container">
           <div className="copyright">
-            <h4>{copyright}</h4>
+            <div class="single-footer-widget">
+                <h4 class="widget-title">About Us</h4>
+                <p>{config.siteDescription}</p>
+              <div class="copywrite-content">
+                <p>
+                  {copyright}
+                  <a href="" target="_blank">Sam</a>
+                </p>
+              </div>
+            </div>
           </div>
-
           <div className="rss">
             <Link to={url}>
               <Button flat secondary iconClassName="fa fa-rss">
@@ -27,8 +35,14 @@ class Footer extends Component {
               </Button>
             </Link>
           </div>
+          <div className="based-on">
+            <div class="single-footer-widget">
+              <h4 class="widget-title">Follow Us</h4>
+              <p>{userLinks ? <UserLinks config={config} labeled /> : null}</p>
+            </div>
+          </div>
         </div>
-        {userLinks ? <UserLinks config={config} labeled /> : null}
+        
       </footer>
     );
   }

@@ -16,19 +16,23 @@ header.black {
     display: flex;
     height: 100%;
     align-items:  center;
-    padding: 0 1rem;
+    padding: 20px 20px;
+    @media (max-width: 640px - 1px) {
+        padding: 10px 10px;
+      }
 }
 
 .toolbar_logo {
     display: flex;
     align-items:  center;
     margin-bottom: -2px;
+    margin-left: -5px;
 }
 .toolbar_logo img{
     max-width: 40px;
 }
 .toolbar_logo .title {
-    color: white;
+    color: #ffffff;
     font-size: 1.8rem;
 }
 .spacer {
@@ -44,7 +48,7 @@ header.black {
 }
 .toolbar_nav-items a {
     font-size: 1.3rem;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 .toolbar_nav-items .active{

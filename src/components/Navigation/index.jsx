@@ -33,16 +33,20 @@ class Navigation extends Component {
     return (
       <div
         
-        
+      toolbarTitle={LocalTitle}
         
         
       >
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <div className="main-container">{children}</div>
         
-        <Advert />
+        <div className="main-container">
+          {children}
+          <Advert />
+        </div>
+        
+        
         <Footer userLinks={footerLinks} />
       </div>
     );

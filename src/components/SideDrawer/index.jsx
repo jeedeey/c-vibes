@@ -6,6 +6,7 @@ import config from "../../../data/SiteConfig";
 import "./SideDrawer.scss";
 
 const SideDrawer = props => {
+    const {copyright} = config;
     let drawerClasses = "side-drawer";
     if (props.show) {
         drawerClasses= "side-drawer open";
@@ -29,7 +30,11 @@ const SideDrawer = props => {
               <Link className="link" activeClassName="active" to="/about">About</Link>
             </li>
             <li><UserLinks config={config} /></li>
+            <div className="sidedrawer-copyright">
+            {copyright} <a href="">Sam</a>
+            </div>
           </ul>
+          
         </nav>
     );
 };

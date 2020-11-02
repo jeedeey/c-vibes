@@ -3,23 +3,26 @@
 .footer {
   justify-content: center;
   align-content: center;
-  background-color: $md-tertiary-color;
-  padding: 10px 5px 5px;
-
+  background-color: $md-primary-color;
+  padding: 20px 20px;
+  @media (max-width: 640px - 1px) {
+    padding: 10px 10px;
+  }
   .notice-container {
     display: flex;
     align-content: center;
     align-items: center;
     margin-top: 25px;
+    @media (max-width: 640px - 1px) {
+      flex-direction: column;
+    }
 
     .copyright {
       display: flex;
       flex: 1;
       justify-content: flex-start;
-
-      @media (max-width: 640px - 1px) {
-        justify-content: center;
-      }
+      
+      
     }
 
     .rss {
@@ -35,19 +38,8 @@
 
     .based-on {
       display: flex;
-
-      @media (max-width: 640px - 1px) {
-        display: none;
-      }
-
       flex: 1;
       justify-content: flex-end;
-    }
-
-    h4 {
-      color: grey;
-      text-align: center;
-      margin: 0;
     }
   }
 }
@@ -58,4 +50,36 @@
   bottom: 0;
   right: 0;
   z-index: 15;
+}
+
+.single-footer-widget {
+  margin-bottom: 30px; 
+  
+}
+.single-footer-widget h4 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: left;
+  background: darken($md-tertiary-color, 10%);
+  border-left: 4px solid $md-secondary-color;
+  padding: 0px 10px;
+  
+  
+}
+.single-footer-widget p {
+  color: #ffffff;
+  font-size: 14px;
+}
+.copywrite-content p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a6a6a6;
+  margin-bottom: 0; 
+}
+.copywrite-content p a {
+  margin-left: 1%;
+  color: $md-secondary-color; 
+}
+.copywrite-content p a:focus, .copywrite-content p a:hover {
+  color: #a6a6a6; 
 }

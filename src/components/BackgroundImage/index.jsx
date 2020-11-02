@@ -29,6 +29,7 @@ class queryBackground extends Component {
             <p className="content-box">
               send us your advert, content for publication contact us <Link className="link" to="/contact">click here</Link>
             </p>
+            
           </div>
         </BackgroundImage>
         )}

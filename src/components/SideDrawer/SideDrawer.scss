@@ -23,13 +23,24 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+.sidedrawer-copyright{
+    margin-top: 20vh;
+    align-items: flex-end;
+    color: #a6a6a6;
+}
+.sidedrawer-copyright a{
+    color: $md-secondary-color;
+}
+.sidedrawer-copyright a:focus, .sidedrawer-copyright a:hover {
+    color: #a6a6a6; 
+  }
 .side-drawer li {
     margin: 0.5rem 0;
 }
 
 .side-drawer .link {
     padding: 2px 0px;
-    color: black;
+    color: #232323;
     text-decoration: none;
     font-size: 1.1rem;
 }
