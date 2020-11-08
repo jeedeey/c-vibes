@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Background from "../components/BackgroundImage";
+import Breadcumb from "../components/Breadcumb";
 import PostListing from "../components/PostListing";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
@@ -27,6 +28,7 @@ export default class CategoryTemplate extends React.Component {
             />
           </Helmet>
           <Background />
+          <Breadcumb title={category.charAt(0).toUpperCase() + category.slice(1)} />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

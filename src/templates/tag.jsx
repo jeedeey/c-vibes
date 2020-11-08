@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Background from "../components/BackgroundImage";
+import Breadcumb from "../components/Breadcumb";
 import PostListing from "../components/PostListing";
 import config from "../../data/SiteConfig";
 
@@ -19,9 +20,10 @@ export default class TagTemplate extends React.Component {
         <div className="tag-container">
           <Helmet>
             <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
+            <link rel="canonical" href={`${config.siteUrl}/tag/${tag}`} />
           </Helmet>
           <Background />
+          <Breadcumb title={`Tagged in ${tag.charAt(0).toUpperCase() + tag.slice(1)}`}/>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

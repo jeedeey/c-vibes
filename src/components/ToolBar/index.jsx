@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "gatsby";
-import UserLinks from "../UserLinks";
+import TopUserLink from "../TopUserLink";
 import Logo from "../../../static/logos/logo-48.png";
 import config from "../../../data/SiteConfig";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
@@ -46,7 +46,7 @@ class Toolbar extends Component {
                         <Link activeClassName="active" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link activeClassName="active" to="/">Category</Link>
+                        <Link activeClassName="active" to="/categorys">Category</Link>
                     </li>
                     <li>
                         <Link activeClassName="active" to="/tag">tags</Link>
@@ -59,9 +59,8 @@ class Toolbar extends Component {
                     </li>
                     </ul>
                 </div>
-                <div className="spacer" />
                 <div className="userlinks">
-                    <UserLinks config={config} />
+                    <TopUserLink config={config} />
                 </div> 
                 <div className="toolbar_toggle-button">
                     <DrawerToggleButton click={this.props.drawerClickHandler} />

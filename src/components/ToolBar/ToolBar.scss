@@ -12,7 +12,7 @@ header {
 header.black {
     background: $md-primary-color;
 }
-.toolbar_nav {
+header .toolbar_nav {
     display: flex;
     height: 100%;
     align-items:  center;
@@ -22,64 +22,62 @@ header.black {
       }
 }
 
-.toolbar_logo {
+header .toolbar_logo {
     display: flex;
     align-items:  center;
     margin-bottom: -2px;
     margin-left: -5px;
 }
-.toolbar_logo img{
+header .toolbar_logo img{
     max-width: 40px;
 }
-.toolbar_logo .title {
+header .toolbar_logo .title {
     color: #ffffff;
     font-size: 1.8rem;
 }
-.spacer {
+header .spacer {
     flex: 1;
 }
-.toolbar_nav-items ul {
+header .toolbar_nav-items ul {
     list-style: none;
     padding: 0;
     display: flex;
 }
-.toolbar_nav-items li {
+header .toolbar_nav-items li {
     padding: 0 1rem;
 }
-.toolbar_nav-items a {
+header .toolbar_nav-items a {
     font-size: 1.3rem;
     color: #ffffff;
     text-decoration: none;
 }
-.toolbar_nav-items .active{
+header .toolbar_nav-items .active{
     border-bottom: 2px solid $md-secondary-color;
 }
-.toolbar_nav-items a:hover,
-.toolbar_nav-items a:active {
+header .toolbar_nav-items a:hover,
+header .toolbar_nav-items a:active {
     color: $md-secondary-color;
 }
 @media (max-width: 1025px){
-    .toolbar_nav-items a {
+    header .toolbar_nav-items a {
         font-size: 1rem;
     }
 }
-.userlinks{
-    margin-top: -10px;
-}
+
 @media (max-width: 768px) {
-    .toolbar_nav-items, .userlinks {
+    header .toolbar_nav-items, header .userlinks {
         display: none;
     }
-    .toolbar_logo img{
+    header .toolbar_logo img{
         max-width: 35px;
     }
-    .toolbar_logo .title {
+    header .toolbar_logo .title {
         font-size: 1.4rem;
     }
 }
 
 @media (min-width: 769px) {
-    .toolbar_toggle-button {
+    header .toolbar_toggle-button {
         display: none;
     }
 }

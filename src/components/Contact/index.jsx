@@ -27,13 +27,12 @@ class Contact extends Component {
                 <div className="contact-heading mb-50">
                   <h2>Contact Info</h2>
                   <h6>We will be happy to assist you with any question</h6>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Integer vehicula mauris libero, at molestie eros imperdiet sit amet. Suspendisse mattis ante sit amet ante.</p>
+                  <p>if you have content, advert and brand promotion please contact us. </p>
                 </div>
 
-                <h5>Address: 40 Baria Sreet 133/2 NewYork City, US</h5>
-                <h5>Phone: +01-3-8888-6868</h5>
-                <h5>Email: info@colorlib.com </h5>
-                <h5>Open Hours: Mon - Fri: 8:00 AM to 6:00 PM</h5>
+                <h5>Address: Lokoja, Kogi State</h5>
+                <h5>Phone: +2348067499807</h5>
+                <h5>Email: confluencevibe@gmail.com </h5>
               </div>
             </div>
           </div>

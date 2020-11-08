@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
 import Layout from "../layout";
+import Breadcumb from "../components/Breadcumb";
 import UserInfo from "../components/UserInfo";
 import Disqus from "../components/Disqus";
 import PostTags from "../components/PostTags";
@@ -75,6 +76,7 @@ export default class PostTemplate extends React.Component {
             className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
           >
             <Card className="md-grid md-cell md-cell--12 post">
+              <Breadcumb title="detail"/>
               <CardText className="post-body">
                 <h1 className="md-display-2 post-header">{post.title}</h1>
                 <PostInfo postNode={postNode} />

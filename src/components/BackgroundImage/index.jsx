@@ -25,8 +25,8 @@ class queryBackground extends Component {
           fluid={data.desktop.childImageSharp.fluid}
           fadeIn
         >
-          <div className="black-overlay">
-            <p className="content-box">
+          <div className="masthead-black-overlay">
+            <p className="masthead-content-box">
               send us your advert, content for publication contact us <Link className="link" to="/contact">click here</Link>
             </p>
             

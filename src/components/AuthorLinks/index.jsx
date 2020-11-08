@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Button from "react-md/lib/Buttons";
-import "./AuthorLinks.scss";
 
 class AuthorLinks extends Component {
   getLinkElements() {

@@ -38,7 +38,7 @@ class Footer extends Component {
           <div className="based-on">
             <div class="single-footer-widget">
               <h4 class="widget-title">Follow Us</h4>
-              <p>{userLinks ? <UserLinks config={config} labeled /> : null}</p>
+              <p>{userLinks ? <UserLinks config={config} /> : null}</p>
             </div>
           </div>
         </div>

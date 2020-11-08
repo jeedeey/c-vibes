@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import UserLinks from "../UserLinks";
+import TopUserLink from "../TopUserLink";
 import config from "../../../data/SiteConfig";
 
 import "./SideDrawer.scss";
@@ -18,10 +18,10 @@ const SideDrawer = props => {
               <Link className="link" activeClassName="active" to="/">Home</Link>
             </li>
             <li>
-              <Link className="link" activeClassName="active" to="/category">Category</Link>
+              <Link className="link" activeClassName="active" to="/categorys">Category</Link>
             </li>
             <li>
-              <Link className="link" activeClassName="active" to="/tag">Tags</Link>
+              <Link className="link" activeClassName="active" to="/tags">Tags</Link>
             </li>
             <li>
               <Link className="link" activeClassName="active" to="/contact">Contact</Link>
@@ -29,7 +29,10 @@ const SideDrawer = props => {
             <li>
               <Link className="link" activeClassName="active" to="/about">About</Link>
             </li>
-            <li><UserLinks config={config} /></li>
+            
+            <div className="TopUserLink">
+            <TopUserLink config={config} />
+            </div>
             <div className="sidedrawer-copyright">
             {copyright} <a href="">Sam</a>
             </div>

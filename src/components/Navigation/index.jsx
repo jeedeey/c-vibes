@@ -4,8 +4,6 @@ import Toolbar from "../ToolBar";
 import Advert from "../Advert";
 import Backdrop from "../Backdrop";
 import Footer from "../Footer";
-import "./Navigation.scss";
-
 class Navigation extends Component {
   state ={
     sideDrawerOpen: false
@@ -43,7 +41,9 @@ class Navigation extends Component {
         
         <div className="main-container">
           {children}
+          
           <Advert />
+          
         </div>
         
         

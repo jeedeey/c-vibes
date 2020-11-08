@@ -27,7 +27,7 @@ class Advert extends Component {
         >
           <div className="black-overlay-advert">
             <div className="content-box-advert">
-              <p>hire a developer..</p>
+              
             </div>
           </div>
         </BackgroundImage>

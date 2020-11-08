@@ -9,7 +9,7 @@ class About extends Component {
   render() {
     const { expanded } = this.props;
     return (
-      <div className="about-container md-grid mobile-fix">
+      <div className="md-grid mobile-fix">
         <Card className="md-grid md-cell--8">
           <div className="about-wrapper">
             <img
@@ -17,8 +17,8 @@ class About extends Component {
               className="about-img"
               alt={config.userName}
             />
-            <CardText>
-              <p className="about-text md-body-1">{config.siteDescription}</p>
+            <CardText className="about-text md-body-1">
+              <p >{config.siteDescription}</p>
             </CardText>
             <UserLinks labeled={expanded} config={config} />
           </div>

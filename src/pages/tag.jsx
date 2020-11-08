@@ -6,7 +6,6 @@ import Chip from "react-md/lib/Chips";
 import Layout from "../layout";
 import Background from "../components/BackgroundImage";
 import config from "../../data/SiteConfig";
-import "./tag.scss";
 
 
 class TagsPage extends React.Component {

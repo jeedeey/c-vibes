@@ -1,9 +1,15 @@
+.breadcumb-container {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  
+}
 .breadcumb--con .breadcrumb {
-    padding: 30px 0;
-    margin-bottom: 0;
+    display: flex;
     list-style: none;
     background-color: transparent;
-    border-radius: 0; }
+    padding-left: 14px; 
+  }
     .breadcumb--con .breadcrumb .breadcrumb-item,
     .breadcumb--con .breadcrumb .breadcrumb-item > a,
     .breadcumb--con .breadcrumb .breadcrumb-item.active {
@@ -23,18 +29,12 @@
       .breadcumb--con .breadcrumb .breadcrumb-item > a:hover,
       .breadcumb--con .breadcrumb .breadcrumb-item.active:focus,
       .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
-        color: #f55656; }
+        color: orange; }
     .breadcumb--con .breadcrumb .breadcrumb-item.active {
       color: #a6a6a6; }
       .breadcumb--con .breadcrumb .breadcrumb-item.active:focus, .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
         color: #a6a6a6; }
-    .breadcumb--con .breadcrumb .page-item:first-child .page-link {
-      margin-left: 0;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0; }
-    .breadcumb--con .breadcrumb .page-item:last-child .page-link {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0; }
     .breadcumb--con .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: "\f105";
+      padding: 8px;
       font-family: 'FontAwesome'; }
