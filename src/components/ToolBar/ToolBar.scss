@@ -5,7 +5,7 @@ header {
     left: 0;
     width: 100%;
     height: 56px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: $md-tertiary-color;
     z-index: 100;
     transition:0.5s;
 }
@@ -18,7 +18,7 @@ header .toolbar_nav {
     align-items:  center;
     padding: 20px 20px;
     @media (max-width: 640px - 1px) {
-        padding: 10px 10px;
+        padding: 10px 16px;
       }
 }
 
@@ -27,13 +27,16 @@ header .toolbar_logo {
     align-items:  center;
     margin-bottom: -2px;
     margin-left: -5px;
+    color: #232323;
+    font-weight: 700;
+    font-size: 1.8rem;
+    
 }
 header .toolbar_logo img{
     max-width: 40px;
 }
-header .toolbar_logo .title {
-    color: #ffffff;
-    font-size: 1.8rem;
+.title{
+    color: white;
 }
 header .spacer {
     flex: 1;
@@ -47,6 +50,7 @@ header .toolbar_nav-items li {
     padding: 0 1rem;
 }
 header .toolbar_nav-items a {
+    font-weight: 700;
     font-size: 1.3rem;
     color: #ffffff;
     text-decoration: none;
@@ -62,6 +66,7 @@ header .toolbar_nav-items a:active {
     header .toolbar_nav-items a {
         font-size: 1rem;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -71,7 +76,7 @@ header .toolbar_nav-items a:active {
     header .toolbar_logo img{
         max-width: 35px;
     }
-    header .toolbar_logo .title {
+    header .toolbar_logo{
         font-size: 1.4rem;
     }
 }

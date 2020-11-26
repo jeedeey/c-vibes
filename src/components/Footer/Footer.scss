@@ -6,7 +6,7 @@
   background-color: $md-primary-color;
   padding: 20px 20px;
   @media (max-width: 640px - 1px) {
-    padding: 10px 10px;
+    padding: 10px 16px;
   }
   .notice-container {
     display: flex;
@@ -56,13 +56,14 @@
   margin-bottom: 30px; 
   
 }
-.single-footer-widget h4 {
+.single-footer-widget h5 {
   font-weight: 600;
   font-size: 1.3rem;
   text-align: left;
   background: darken($md-tertiary-color, 10%);
   border-left: 4px solid $md-secondary-color;
   padding: 0px 10px;
+  margin: 16px 0px !important;
   
   
 }

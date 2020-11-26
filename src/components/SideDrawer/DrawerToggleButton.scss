@@ -1,8 +1,5 @@
 @import "../../layout/theme.scss";
-.toggle_button-wrap{
-    border-radius: 12px;
-    
-}
+
 
 .toggle-button {
     display: flex;
@@ -22,5 +19,5 @@
 .toggle-button_line {
     width: 28px;
     height: 3px;
-    background: $md-tertiary-color;
+    background: #232323;
 }

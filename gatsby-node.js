@@ -46,9 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const postPage = path.resolve("src/templates/post.jsx");
   const tagPage = path.resolve("src/templates/tag.jsx");
-  const alltagPage = path.resolve("src/templates/tags.jsx");
   const categoryPage = path.resolve("src/templates/category.jsx");
-  const categoryList = path.resolve("src/templates/categorylist.jsx");
 
   const markdownQueryResult = await graphql(
     `
@@ -128,22 +126,6 @@ exports.createPages = async ({ graphql, actions }) => {
         prevslug: prevEdge.node.fields.slug
       }
     });
-  });
-
-  let tags = []
-  _.each(postsEdges, edge => {
-    if(_.get(edge, 'node.frontmatter.tags')){
-      tags = tags.concat(edge.node.frontmatter.tags)
-    }
-  })
-  tags = _.uniq(tags)
-
-  createPage({
-    path: `/tags`,
-    component: alltagPage,
-    context: {
-      tags
-    }
   });
 
   tagSet.forEach(tag => {

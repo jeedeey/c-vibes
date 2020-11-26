@@ -7,7 +7,7 @@ class TopUserLink extends Component {
     const { userLinks } = this.props.config;
     return userLinks.map(link => (
         <div class="top-social-area">
-          <a style={{color: "black"}} href={link.url} className={link.iconClassName} aria-hidden="true"></a>
+          <a href={link.url} className={link.iconClassName} aria-hidden="true"></a>
         </div>
       
     ));

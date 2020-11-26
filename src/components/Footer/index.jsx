@@ -18,7 +18,7 @@ class Footer extends Component {
         <div className="notice-container">
           <div className="copyright">
             <div class="single-footer-widget">
-                <h4 class="widget-title">About Us</h4>
+                <h5 class="widget-title">About Us</h5>
                 <p>{config.siteDescription}</p>
               <div class="copywrite-content">
                 <p>
@@ -35,11 +35,8 @@ class Footer extends Component {
               </Button>
             </Link>
           </div>
-          <div className="based-on">
-            <div class="single-footer-widget">
-              <h4 class="widget-title">Follow Us</h4>
+          <div className="follow-us">
               <p>{userLinks ? <UserLinks config={config} /> : null}</p>
-            </div>
           </div>
         </div>
         

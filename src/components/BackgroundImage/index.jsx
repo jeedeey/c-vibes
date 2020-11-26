@@ -27,7 +27,7 @@ class queryBackground extends Component {
         >
           <div className="masthead-black-overlay">
             <p className="masthead-content-box">
-              send us your advert, content for publication contact us <Link className="link" to="/contact">click here</Link>
+              send us your advert, content for publication <Link className="link" to="/contact">contact us</Link>
             </p>
             
           </div>

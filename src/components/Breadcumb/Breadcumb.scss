@@ -1,14 +1,9 @@
-.breadcumb-container {
-  display: flex;
-  align-items: left;
-  flex-direction: column;
-  
-}
+
 .breadcumb--con .breadcrumb {
     display: flex;
     list-style: none;
     background-color: transparent;
-    padding-left: 14px; 
+    padding-left: 0px; 
   }
     .breadcumb--con .breadcrumb .breadcrumb-item,
     .breadcumb--con .breadcrumb .breadcrumb-item > a,
