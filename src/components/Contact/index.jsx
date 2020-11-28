@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
+import Button from "react-md/lib/Buttons";
 import "./Contact.scss";
 
 class Contact extends Component {
@@ -20,7 +21,9 @@ class Contact extends Component {
                     <input type="text" name="message-name" className="form-control mb-30" placeholder="Your Name" />
                     <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email" />
                     <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn poca-btn">Send Message</button>
+                    <Button type="submit" raised secondary className="md-cell--right">
+                      Send Message
+                    </Button>
                 </form>
               </div>
               <div className="contact-info">

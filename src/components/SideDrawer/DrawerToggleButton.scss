@@ -1,6 +1,11 @@
 @import "../../layout/theme.scss";
 
-
+.toggle_button-wrap{
+    background: $md-primary-color;
+    height: 100%;
+    width: 40px;
+    padding: 38% 0;
+}
 .toggle-button {
     display: flex;
     flex-direction: column;
@@ -10,7 +15,6 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 0;
     box-sizing: border-box;
 }
 .toggle-button:focus {
@@ -19,5 +23,5 @@
 .toggle-button_line {
     width: 28px;
     height: 3px;
-    background: #232323;
+    background: white;
 }

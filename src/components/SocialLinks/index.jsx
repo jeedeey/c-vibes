@@ -29,7 +29,9 @@ class SocialLinks extends Component {
     );
 
     return (
-      <div className="social-links">
+      <div className="Social-post">
+        <p>share below</p>
+        <div className="social-links">
         <RedditShareButton url={url} title={post.title}>
           <RedditIcon round size={iconSize} />
           <RedditShareCount url={url}>
@@ -55,6 +57,8 @@ class SocialLinks extends Component {
         <TelegramShareButton url={url}>
           <TelegramIcon round size={iconSize} />
         </TelegramShareButton>
+        </div>
+        
       </div>
     );
   }

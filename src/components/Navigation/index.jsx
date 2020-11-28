@@ -53,7 +53,7 @@ class Navigation extends Component {
                 <CategoryList />
               </div>
             
-          </Card>
+            </Card>
             </div>
           
           </div>
