@@ -1,6 +1,6 @@
 ---
 title: "Protesters storm(ed) Felele/Lokoja-Abuja road"
-cover: ""
+cover: "ksp-student-protest.jpg"
 category: "news"
 date: "2020-10-21"
 author: "taiye man"

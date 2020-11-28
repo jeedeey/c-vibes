@@ -1,6 +1,6 @@
 ---
 title: "lokoja youth loot KOGI ADP"
-cover: ""
+cover: "hoodlums.jpg"
 category: "news"
 date: "2020-10-25"
 author: "taiye man"
