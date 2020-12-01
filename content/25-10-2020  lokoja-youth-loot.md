@@ -1,5 +1,5 @@
 ---
-title: "lokoja youth loot KOGI ADP"
+title: "Lokoja looting of KOGI ADP"
 cover: "hoodlums.jpg"
 category: "news"
 date: "2020-10-25"
@@ -8,7 +8,7 @@ tags:
     - crisis
 ---
 
-As discovery of covid-19 pallative warehouses trend continues across the country, it took a different dimension in Lokoja, Kogi State on sunday 25th october, 2020. A tension soaked atmosphere was experienced in Felele-Lokoja as rampaging youth embark on a looting spree at the Agricultural Development Programme office, Lokoja carting away items such as fertilizers, chemicals, fans, office chairs/tables, computers, spraying machines, pumping machines, photocopier, printers, whelbarrow etc.
+As discovery of covid-19 pallative warehouses trend continues across the country, it took a different dimension in Lokoja, Kogi State on sunday 25th october, 2020. A tension soaked atmosphere was experienced in Felele-Lokoja as rampaging youth embark on a looting spree at the Agricultural Development Project office, Lokoja carting away items such as fertilizers, chemicals, fans, office chairs/tables, computers, spraying machines, pumping machines, photocopier, printers, whelbarrow etc.
 
 At around 5pm youth started trooping in from the NATACO axis based on the report or hint that the remaining pallatives distributed earlier to the people at Kabawa street, Lokoja metropolis is stockedpiled at the ADP office in Felele, Lokoja. On getting to the office /location with the expectation of getting the remaining Kogi State covid-19 pallatives, the youth were metbwith dissapointment. Hence, whatever was in sight became their pallatives as looting of Government properties was at it highest and odd level.
 
