@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: "Confluence Lokoja Vibes", // Alternative site title for SEO.
   siteLogo: "./logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://confluencevibes.com", // Domain of your website without pathPrefix.
-  pathPrefix: "confluence-vibes", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "bringing delight entertainments, promoting and broadcasting news update around.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
