@@ -4,7 +4,7 @@ cover: "christbirth.jpg"
 category: "article"
 featured: "true"
 date: "2020-12-25"
-author: "sammy"
+author: "adebola"
 tags:
     - facts
     
