@@ -14,34 +14,32 @@
         }
     }
 }
-.widget-title {
-  background: white;
-  font-weight: bold;
-  margin-top: 50px !important;
-  font-size: 28px;
-  text-transform: capitalize; }
-  @media only screen and (max-width: 767px) {
-    .widget-title {
-      font-size: 20px; } }
+.title-heading h2 {
+  display: block;
+  text-align: left;
+  color: black;
+  margin-bottom: 0px;
+  font-size: 24px; }
 
 .catagories-list{
   background: white;
-  padding-bottom: 30px !important;
 }
       
 .catagories-list ib{
   display: none;
 }
+.catagories-list li i{
+  padding-right: 5px;
+}
 .catagories-list li a {
     display: block;
     padding: 10px 0;
-    font-size: 18px;
     text-transform: capitalize;
     color: #232323;
     font-weight: 500 ; }
     @media only screen and (max-width: 767px) {
-      .catagories-list li a {
-        font-size: 16px; } }
+      
+    }
     .catagories-list li a:focus, .catagories-list li a:hover {
       color: $md-secondary-color; }
   

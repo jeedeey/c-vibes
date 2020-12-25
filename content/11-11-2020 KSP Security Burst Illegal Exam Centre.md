@@ -3,7 +3,7 @@ title: "KSP Security Burst Illegal Exam Centre"
 cover: "KSP-Illegal-Exam-Centre.jpg"
 category: "news"
 date: "2020-11-11"
-author: "sam jay"
+author: "dejitaiwo"
 tags:
     - ksp news
     

@@ -33,9 +33,6 @@ class Toolbar extends Component {
                         <Link activeClassName="active" to="/categorys">Category</Link>
                     </li>
                     <li>
-                        <Link activeClassName="active" to="/tag">tags</Link>
-                    </li>
-                    <li>
                         <Link activeClassName="active" to="/contact">Contact</Link>
                     </li>
                     <li>

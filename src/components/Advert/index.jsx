@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "react-md/lib/Cards/Card";
 import { StaticQuery, graphql } from "gatsby";
 import BackgroundImage from 'gatsby-background-image';
 import "./Advert.scss";
@@ -7,7 +8,8 @@ class Advert extends Component {
   render() {
     
     return (
-      <StaticQuery
+      <Card raise className="md-grid md-cell md-cell--12">
+        <StaticQuery
       query={graphql`
       query {
         desktop: file(relativePath: { eq: "designbanner.png" }) {
@@ -33,6 +35,8 @@ class Advert extends Component {
         </BackgroundImage>
         )}
       />
+      </Card>
+      
     );
   }
 }

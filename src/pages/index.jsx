@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Background from "../components/BackgroundImage";
+import FeaturedListing from "../components/FeaturedListing";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
@@ -19,6 +20,8 @@ class Index extends React.Component {
           </Helmet>
           <SEO postEdges={postEdges} />
           <Background />
+          <FeaturedListing postEdges={postEdges} />
+          <div class="widget-title md-grid">all post</div>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
@@ -47,6 +50,7 @@ export const pageQuery = graphql`
             tags
             cover
             date
+            featured
           }
         }
       }

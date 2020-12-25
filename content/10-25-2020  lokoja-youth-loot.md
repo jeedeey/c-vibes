@@ -3,7 +3,7 @@ title: "Lokoja looting of KOGI ADP"
 cover: "hoodlums.jpg"
 category: "news"
 date: "2020-10-25"
-author: "taiye man"
+author: "dejitaiwo"
 tags:
     - crisis
 ---

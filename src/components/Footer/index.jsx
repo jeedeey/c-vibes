@@ -18,7 +18,7 @@ class Footer extends Component {
         <div className="notice-container">
           <div className="copyright">
             <div class="single-footer-widget">
-                <h5 class="widget-title">About Us</h5>
+                <h5>About Us</h5>
                 <p>{config.siteDescription}</p>
               <div class="copywrite-content">
                 <p>

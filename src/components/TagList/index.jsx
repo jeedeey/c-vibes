@@ -19,11 +19,8 @@ class All extends Component {
           }
           `}
           render={data => (
-            <div className="md-grid md-grid--no-spacing md-cell--middle">
-              <div className="md-grid md-cell--8 mobile-fix">
                 <Tags tags={data.tagsGroup.group} />
-              </div>
-            </div>
+              
           )}
         />
       );

@@ -1,9 +1,9 @@
 ---
 title: "Gun men armed with sophiticated weapon kidnapped (4) at Ajaokuta"
-cover: ""
+cover: "https://i.imgur.com/MLdZ1wZ.jpg"
 category: "news"
 date: "2020-11-28"
-author: "sam jay"
+author: "sammy"
 tags:
     - Kogi News
     

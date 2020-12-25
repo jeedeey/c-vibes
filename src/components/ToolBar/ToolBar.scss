@@ -26,18 +26,16 @@ header .toolbar_logo {
     display: flex;
     align-items:  center;
     margin-bottom: -2px;
-    margin-left: -5px;
+    margin-left: -8px;
     color: #232323;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.8rem;
     
 }
 header .toolbar_logo img{
     max-width: 40px;
 }
-.title{
-    color: white;
-}
+
 header .spacer {
     flex: 1;
 }
@@ -52,7 +50,7 @@ header .toolbar_nav-items li {
 header .toolbar_nav-items a {
     font-weight: 700;
     font-size: 1.3rem;
-    color: #ffffff;
+    color: #232323;
     text-decoration: none;
 }
 header .toolbar_nav-items .active{

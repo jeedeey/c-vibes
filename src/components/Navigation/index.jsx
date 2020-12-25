@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import SideDrawer from "../SideDrawer";
 import Card from "react-md/lib/Cards/Card";
+import CardTitle from "react-md/lib/Cards/CardTitle";
+import CardText from "react-md/lib/Cards/CardText";
 import Toolbar from "../ToolBar";
 import CategoryList from "../CategoryList";
 import TagList from "../TagList";
@@ -48,17 +50,27 @@ class Navigation extends Component {
           <div className="md-grid md-grid--no-spacing md-cell--middle">
             <div className="md-grid md-cell--8 mobile-fix">
             <Card className="md-grid md-cell md-cell--12">
-              <div className="catagories-list">
-              <h5  className="widget-title">Categories</h5>
+              <CardTitle className="title-heading">
+                <h2>Categories</h2>
+              </CardTitle>
+              <CardText className="catagories-list">
                 <CategoryList />
-              </div>
-            
+              </CardText>
             </Card>
             </div>
           
           </div>
-          <Advert />
-          <TagList />
+          <div className="md-grid md-grid--no-spacing md-cell--middle">
+            <div className="md-grid md-cell--8 mobile-fix">
+            <Advert />
+            </div>
+          </div>
+          <div className="md-grid md-grid--no-spacing md-cell--middle">
+            <div className="md-grid md-cell--8 mobile-fix">
+            <TagList />
+            </div>
+          </div>
+          
         </div>
         <Footer userLinks={footerLinks} />
       </div>

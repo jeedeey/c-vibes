@@ -190,6 +190,7 @@ module.exports = {
                       category
                       tags
                       author
+                      featured
                     }
                   }
                 }
