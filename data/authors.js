@@ -23,7 +23,7 @@ const authors = [
   },
     {
         name: "adebola",
-        imageUrl: "",
+        imageUrl: "./assets/adebola.jpg",
         bio: "",
         field: "",
         location: "lokoja",
@@ -32,10 +32,6 @@ const authors = [
             {
               url: "https://facebook.com",
               iconClassName: "fa fa-facebook",
-            },
-            {
-              url: "https://twitter.com",
-              iconClassName: "fa fa-twitter",
             },
             {
               url: "https://confluencevibe@gmail.com",

@@ -8,7 +8,6 @@
    /* margin-bottom: 10px; */
 }
 .masthead-black-overlay{
-    padding-top: 80px;
     display: -webkit-flex;
     display: flex;
     background-color: rgba(0,0,0,.87);
@@ -17,18 +16,34 @@
     color: white;
 }
 
-.masthead-black-overlay p {
-    text-align: center;
+marquee{
+    padding-top: 10%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.rainbow-text {
+    text-transform: capitalize;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.masthead-content-box p {
+    margin-top: 10px;
+    padding-left: 8px;
     font-size: .8rem;
+    color: #fff;
 
 }
 .masthead-content-box {
+    padding: 0 16px;
+    width: 100%;
+    text-align: center;
     max-width: 700px;
     margin: 0 auto;
-    color: white;
 }
 .masthead-content-box .link{
     color: $md-secondary-color;
+    text-transform: uppercase;
 }
 @media (min-width: 769px) {
     .masthead, .masthead-black-overlay {
