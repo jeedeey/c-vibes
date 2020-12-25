@@ -24,6 +24,12 @@ module.exports = {
     "gatsby-plugin-lodash",
     "gatsby-plugin-sass",
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-5313611738142882`
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
