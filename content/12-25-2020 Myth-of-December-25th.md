@@ -12,7 +12,7 @@ tags:
 
 ## How Christmas festival originated?
 
-Many schoolars have suggested that the period when shepherds werw tending their clocks at night was the spring lamb season in jewish traditon which falls on the cold month of December. As many wanted to celebrate the birth of jesus different days in the month of December and january was proposed by different Christian groups untill December 25th became widely accepted by all and sundry as the birth of Christ.
+Many schoolars have suggested that the period when shepherds were tending their clocks at night was the spring lamb season in jewish traditon which falls on the cold month of December. As many wanted to celebrate the birth of jesus different days in the month of December and january was proposed by different Christian groups untill December 25th became widely accepted by all and sundry as the birth of Christ.
 
 ## How December 25th come to associate with with Jesus
 
