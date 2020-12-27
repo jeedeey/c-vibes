@@ -1,5 +1,5 @@
 ---
-title: "Are you ready to vibe!!! Felele Canival season2"
+title: "Felele Canival season 2 with  unlimited vibe's is here!!! "
 cover: "Felele-canival-season.jpg"
 category: "Event"
 date: "2020-12-27"

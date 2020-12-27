@@ -22,11 +22,10 @@ Listen to the audio below
 
 <br>
 read the short memo of his mind blowing lyrics in his song "Ability"
-
 - Getting naira
 - Getting dollar
-Mo ma pepe bi sunny alade oh oh 
-I was born for this mi o le to shi laye oh oh 
+- Mo ma pepe bi sunny alade oh oh 
+- I was born for this mi o le to shi laye oh oh 
 - Abinibi yato si ability.
 
 Jaywon album is a must download for everyone who loves rich lyrical content and good vibes as the singer leaves no stone unturned to dish out top quality lyrical contents in his music.
