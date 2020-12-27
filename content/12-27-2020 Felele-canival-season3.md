@@ -1,0 +1,17 @@
+---
+title: "Are you ready to vibe!!! Felele Canival season2"
+cover: "Felele-canival-season.jpg"
+category: "Event"
+date: "2020-12-27"
+author: "C-Vibe Team"
+featured: "true"
+tags:
+    - celebration
+    - confluence vibes
+    
+---
+
+Here come the second edition of Felele Canival which is set to hold on 28th of December 2020 at 5pm Behind Oando filling station, Felele, Lokoja **Confluence State**.
+Everyone is codinally invited to be part of live Vibes with lot's of fun andss Entertainment featuring dance, music Comedy and more.
+
+<blockquote>come all ! celebrate !!    and experience fun with no limit !!! </blockquote>

@@ -1,6 +1,28 @@
 const authors = [
   {
-    name: "sammy",
+    name: "C-Vibe Team",
+    imageUrl: "./logo-48.png",
+    bio: "",
+    field: "",
+    location: "lokoja",
+    authorTwitter: "",
+    userLinks: [
+        {
+          url: "https://facebook.com",
+          iconClassName: "fa fa-facebook",
+        },
+        {
+          url: "https://twitter.com",
+          iconClassName: "fa fa-twitter",
+        },
+        {
+          url: "https://ikuenayojide@gmail.com",
+          iconClassName: "fa fa-envelope",
+        },
+      ],
+  },
+  {
+    name: "SamJay",
     imageUrl: "./assets/sam.jpg",
     bio: "",
     field: "",

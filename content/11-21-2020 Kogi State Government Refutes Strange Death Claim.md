@@ -3,7 +3,7 @@ title: "Kogi State Government Refutes Strange Death Claim"
 cover: "Kogi-Refutes-Death-Claim.jpg"
 category: "news"
 date: "2020-11-21"
-author: "sammy"
+author: "dejitaiwo"
 tags:
     - Kogi News
     

@@ -5,8 +5,7 @@ category: "news"
 date: "2020-10-21"
 author: "dejitaiwo"
 tags:
-    - ksp news
-    - accident
+    - kogi news
 ---
 
 The Felele-Lokoja early hour rush was brought to a halt on wednesday, 21st october, 2020 as motorists, riders and business activities were restricted as Kogi Sate Polytechnic students barricated the ever busy Felele-Lokoja-Abuja highway.

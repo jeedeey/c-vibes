@@ -21,7 +21,9 @@ class Index extends React.Component {
           <SEO postEdges={postEdges} />
           <Background />
           <FeaturedListing postEdges={postEdges} />
-          <div class="widget-title md-grid">all post</div>
+          <div className="widget-container">
+            <div className="widget-title">all post</div>
+          </div>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

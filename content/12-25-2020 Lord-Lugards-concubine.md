@@ -1,21 +1,16 @@
 ---
-title: "Shocking facts about Nigeria"
+title: "Lord Lugard acclaimed concubine named Nigeria at Lokoja"
 cover: "flora-shaw-nigeria2.png"
 category: "article"
-featured: "true"
 date: "2020-12-25"
 author: "adebola"
 tags:
-    - kogi news
-    
+    - history
 ---
 
-## Lord Lugards acclaimed concubine named "Nigeria" at Lokoja
-Do you know that Nigeria was given it's name by lord lugard's "concubine" Flora Shaw!!!
+how acclaimed Lord Lugard concubine named "NiGERIA" as, many derogatory statements have been made concerning the identity of the woman who coined the name Nigeria some say she is Lords Lugard concubine , so many people even go to the extreme to say Lord Lugard brought a prostitute from England/London to have a swell time at his mountain top rest house in Nigeria.
 
-how acclaimed Lord Lugard concubine named NiGERIA many derogatory statements have been made concerning the identity of the woman who coined the name Nigeria some say she is Lords Lugard concubine , so many people even go to the extreme to say Lord Lugard brought a prostitute from England/London to have a swell time at his mountain top rest house in Nigeria.
-
-There is a particular controversy in the cypberspace on the identity of Lord Lugard and his wife as a statement was made from a twitter handle stating the fact that "NIGERIA" was named by a prostitute and a theif, another handler also added that a country named by a prostitute Flora Shaw and thief Lord Lugard might be difficult to succeed.
+There is a particular controversy in the cypberspace on the identity of Lord Lugard and his wife as a statement was made from a twitter handle stating that "NIGERIA" was named by a prostitute and a theif, another handler also added that a country named by a prostitute Flora Shaw and thief Lord Lugard might be difficult to succeed.
 
 Looking beyound media skepticism and controversy the woman who coined the name "Nigeria" (NIGER-AREA) was a woman of repute and honor so also her esteemed honourable husband LOrd Lugard despite his flaws which will be covered in his personal article.
 Now let's dive deep into the biography of Flora.

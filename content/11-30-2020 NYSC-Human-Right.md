@@ -6,7 +6,7 @@ date: "2020-11-30"
 author: "dejitaiwo"
 featured: "true"
 tags:
-    - thouhts
+    - facts
     
 ---
 

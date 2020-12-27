@@ -3,7 +3,7 @@ title: "Croatian president! What lies       beneath her beauty"
 cover: "Kolinda.jpg"
 category: "article"
 date: "2020-11-20"
-author: "sammy"
+author: "SamJay"
 tags:
     - global news update
     

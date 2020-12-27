@@ -27,8 +27,8 @@ class queryBackground extends Component {
         >
           <div className="masthead-black-overlay">
             <div className="masthead-content-box">
-              <marquee behavior="alternate"><div className="rainbow-text">happy christmas</div></marquee>
-              <p>send us your advert, content for publication <Link className="link" to="/contact">contact us</Link></p>
+              <marquee behavior="alternate"><div className="rainbow-text">Merry xmas</div></marquee>
+              <p>Want to share news, adert, content for publiation or join C-Vibe's Team <Link className="link" to="/contact">contact us</Link></p>
               
             </div>
             

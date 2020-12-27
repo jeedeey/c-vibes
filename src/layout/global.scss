@@ -6,15 +6,24 @@ div .mobile-fix {
     }
 }
 
-.widget-title {
+.widget-container {
+    margin: 8px;
+    padding: 8px;
+    @media (max-width: 359px) {
+        margin: 0;
+    }
+    @media (min-width: 1000px) {
+        max-width: 70%;
+    }
+}
+.widget-title{
     font-weight: bold;
     background: white;
     font-size: 20px;
     line-height: 1.5;
-    margin: 16px;
     padding: 0 16px;
     margin-bottom: 0px;
     text-transform: capitalize;
-    border-left: 8px solid $md-secondary-color; }
-    
+    border-left: 8px solid $md-secondary-color;
+} 
 
