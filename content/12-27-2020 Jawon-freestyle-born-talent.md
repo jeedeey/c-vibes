@@ -4,6 +4,7 @@ cover: "jawon-12-27-2020.jpg"
 category: "music"
 date: "2020-12-27"
 author: "C-Vibe Team"
+featured: "true"
 tags:
     - viral
     
