@@ -14,7 +14,7 @@ Nasarawa State is reffered to as the "home of solid minerals" which is true to a
 Kogi State is the most endowed in terms of mineral resources as the state is blessed with 28 selected minerals out of 33 that have been geologically identified in Nigeria.
 little wonder the richest black-man in the world decided to site one of the biggest cement plants in the world in Kogi State bacause of the abundance of limestone at Obajana. 
 
-All mineral in the State are available in commercial quantities, there's no Local Government in the State has less than two mineral resources. 
+All mineral in the State are available in commercial quantities, all Local Government in the State has not less than two mineral resources. 
 Mineral resources available: include Granites, Mica, Coal, Clay, Kaolin, Gold,  Gemstones,
 
 ![kogi-state-resource](https://imgur.com/BLdisZB.jpg)
