@@ -31,7 +31,7 @@ class Disqus extends Component {
   }
 
   render() {
-    const { postNode, expanded } = this.props;
+    const { postNode } = this.props;
     if (!config.disqusShortname) {
       return null;
     }
@@ -47,9 +47,8 @@ class Disqus extends Component {
         <CardTitle
           title="Comments"
           avatar={<Avatar icon={<FontIcon>comment</FontIcon>} />}
-          expander={!expanded}
         />
-        <CardText expandable={!expanded}>
+        <CardText>
           <ReactDisqusComments
             shortname={config.disqusShortname}
             identifier={post.title}
