@@ -10,7 +10,7 @@ class queryBackground extends Component {
       <StaticQuery
       query={graphql`
       query {
-        desktop: file(relativePath: { eq: "Confluence.jpg" }) {
+        desktop: file(relativePath: { eq: "new-year-2021.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1800) {
               ...GatsbyImageSharpFluid

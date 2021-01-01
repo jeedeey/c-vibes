@@ -4,7 +4,6 @@ cover: "nysc.jpg"
 category: "article"
 date: "2020-11-30"
 author: "dejitaiwo"
-featured: "true"
 tags:
     - facts
     

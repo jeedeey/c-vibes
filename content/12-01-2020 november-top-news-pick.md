@@ -2,7 +2,6 @@
 title: "November 2020 flashback news pick"
 cover: "https://i.imgur.com/CJ7KjV9.jpg"
 category: "news"
-featured: "true"
 date: "2020-12-01"
 author: "SamJay"
 tags:
