@@ -1,7 +1,7 @@
 const authors = [
   {
     name: "C-Vibe Team",
-    imageUrl: "./logo-48.png",
+    imageUrl: ".\assets\c-vibeteam.jpg",
     bio: "",
     field: "",
     location: "lokoja",
