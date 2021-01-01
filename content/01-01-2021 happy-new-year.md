@@ -4,7 +4,6 @@ cover: "https://imgur.com/S2S9Qud.jpg"
 category: "music"
 date: "2021-01-01"
 author: "C-Vibe Team"
-featured: "true"
 tags:
     - vibes
     
