@@ -1,10 +1,24 @@
 const authors = [
   {
+    name: "Toni Tola",
+    imageUrl: "./assets/tola-toni.jpg",
+    bio: " about writer",
+    field: "writer",
+    location: "lkj",
+    authorTwitter: "",
+    userLinks: [
+        {
+          url: "https://facebook.com/adetola.falokun",
+          iconClassName: "fa fa-facebook",
+        },
+      ],
+  },
+  {
     name: "C-Vibe Team",
-    imageUrl: ".\assets\c-vibeteam.jpg",
+    imageUrl: "./assets/c-vibeteam.jpg",
     bio: "",
     field: "",
-    location: "lokoja",
+    location: "lkj",
     authorTwitter: "",
     userLinks: [
         {
@@ -26,7 +40,7 @@ const authors = [
     imageUrl: "./assets/sam.jpg",
     bio: "",
     field: "",
-    location: "lokoja",
+    location: "lkj",
     authorTwitter: "",
     userLinks: [
         {
@@ -48,7 +62,7 @@ const authors = [
         imageUrl: "./assets/adebola.jpg",
         bio: "",
         field: "",
-        location: "lokoja",
+        location: "MX",
         authorTwitter: "",
         userLinks: [
             {

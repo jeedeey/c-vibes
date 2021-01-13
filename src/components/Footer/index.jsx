@@ -23,7 +23,6 @@ class Footer extends Component {
               <div class="copywrite-content">
                 <p>
                   {copyright}
-                  <a href="" target="_blank">Sam</a>
                 </p>
               </div>
             </div>

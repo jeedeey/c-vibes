@@ -39,7 +39,7 @@ const config = {
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020 All rights reserved | developed by", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020 All rights reserved", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate

@@ -58,8 +58,8 @@ class UserInfo extends Component {
               <FontIcon iconClassName="fa fa-map-marker" />
             </IconSeparator>
           )}
+          <br/>
           <p>{bio && bio}</p>
-          {userLinksElement}
         </CardText>
       </Card>
     );

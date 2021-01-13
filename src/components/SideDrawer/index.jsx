@@ -42,7 +42,7 @@ const SideDrawer = props => {
               <TopUserLink config={config} />
             </div>
             <div className="sidedrawer-copyright">
-            {copyright} <a href="">Sam</a>
+            {copyright}
             </div>
           </ul>
           
