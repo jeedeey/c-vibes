@@ -1,8 +1,13 @@
 .Social-post p{
-    margin-left: 72px;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0;
     color: gray;
-    font-size: 16px;
+    font-size: large;
 }
 .social-links {
     display: flex;

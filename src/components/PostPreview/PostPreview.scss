@@ -1,15 +1,5 @@
 
-.postlisting-container{
-    margin: 8px;
-    padding: 8px;
-    @media (max-width: 359px) {
-        padding: 0;
-    }
-    @media (min-width: 1000px) {
-        max-width: 70%;
-        align-items: center;
-    }
-}
+
 
 .postpreview-card{
     padding: 8px;
