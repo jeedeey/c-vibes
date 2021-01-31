@@ -16,29 +16,25 @@ class Footer extends Component {
     return (
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
         <div className="notice-container">
+          <div className="footer-user--link">
+            {userLinks ? <UserLinks config={config} labeled /> : null}
+          </div>
+          <div className="based-on">
+            <h4>
+              Based on{" "}
+              <a href="https://github.com/Vagr9K/gatsby-material-starter">
+                Gatsby Material Starter
+              </a>.
+            </h4>
+          </div>
           <div className="copyright">
-            <div class="single-footer-widget">
-                <h5>About Us</h5>
-                <p>{config.siteDescription}</p>
-              <div class="copywrite-content">
-                <p>
-                  {copyright}
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="rss">
-            <Link to={url}>
-              <Button flat secondary iconClassName="fa fa-rss">
-                Subscribe
-              </Button>
-            </Link>
-          </div>
-          <div className="follow-us">
-              <p>{userLinks ? <UserLinks config={config} /> : null}</p>
+            <h6>{copyright}</h6>
           </div>
         </div>
-        
+        <div className="footer-link">
+          <h4>privacy</h4>
+        </div>
+          
       </footer>
     );
   }

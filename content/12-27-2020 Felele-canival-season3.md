@@ -1,12 +1,11 @@
 ---
 title: "Felele Canival season 2 with  unlimited vibe's is here!!! "
 cover: "Felele-canival-season.jpg"
-category: "Event"
+category: "news"
 date: "2020-12-27"
 author: "C-Vibe Team"
 tags:
-    - celebration
-    - confluence vibes
+    - confluence news
     
 ---
 

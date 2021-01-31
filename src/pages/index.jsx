@@ -1,10 +1,15 @@
 import React from "react";
+import Card from "react-md/lib/Cards/Card";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Background from "../components/BackgroundImage";
 import FeaturedListing from "../components/FeaturedListing";
 import PostListing from "../components/PostListing";
+import PaginationLinks from "../components/PaginationLinks";
+import Advert from "../components/Advert";
+import CategoryList from "../components/CategoryList";
+import TagList from "../components/TagList";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 
@@ -19,12 +24,19 @@ class Index extends React.Component {
             <link rel="canonical" href={`${config.siteUrl}`} />
           </Helmet>
           <SEO postEdges={postEdges} />
-          <Background />
-          <FeaturedListing postEdges={postEdges} />
-          <div className="widget-container">
-            <div className="widget-title">all post</div>
+          <div className="full-screen-fix">
+            <div className="fix-left">
+              <FeaturedListing postEdges={postEdges} />
+              <PostListing postEdges={postEdges} />
+            </div>
+            <div className="fix-right">
+              <Advert />
+              <CategoryList  /> 
+              <TagList />
+            </div>
+            
           </div>
-          <PostListing postEdges={postEdges} />
+          
         </div>
       </Layout>
     );
@@ -36,9 +48,10 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 2000
+      limit: 6
       sort: { fields: [fields___date], order: DESC }
     ) {
+      totalCount
       edges {
         node {
           fields {

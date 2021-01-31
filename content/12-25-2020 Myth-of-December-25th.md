@@ -1,12 +1,12 @@
 ---
 title: "The myth sorrounding December 25th"
 cover: "christbirth.jpg"
-category: "article"
+category: "lifestyle"
 date: "2020-12-25"
 author: "adebola"
 featured: "true"
 tags:
-    - facts
+    - education
     
 ---
 

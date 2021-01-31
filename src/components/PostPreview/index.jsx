@@ -44,7 +44,7 @@ class PostPreview extends Component {
     /* eslint no-undef: "off" */
     const coverHeight = mobile ? 162 : 225;
     return (
-      <Card key={postInfo.path} raise className="postpreview-card">
+      <Card key={postInfo.path} raise className="post-preview--con md-grid md-cell md-cell--6">
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
           <Media style={{ height: coverHeight, paddingBottom: "0px" }}>
             <PostCover postNode={postInfo} coverHeight={coverHeight} />

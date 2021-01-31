@@ -47,6 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const postPage = path.resolve("src/templates/post.jsx");
   const tagPage = path.resolve("src/templates/tag.jsx");
   const categoryPage = path.resolve("src/templates/category.jsx");
+  const postListPage = path.resolve("src/templates/post-list.jsx");
 
   const markdownQueryResult = await graphql(
     `
@@ -146,4 +147,18 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
+  const postsPerPage = 6
+  const numPages = Math.ceil(postsEdges.length / postsPerPage)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/page` : `/page/${i + 1}`,
+      component: postListPage,
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
 };

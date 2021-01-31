@@ -1,11 +1,11 @@
 ---
 title: "NYSC human rights violation"
 cover: "nysc.jpg"
-category: "article"
+category: "lifestyle"
 date: "2020-11-30"
 author: "dejitaiwo"
 tags:
-    - facts
+    - education
     
 ---
 

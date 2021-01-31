@@ -1,7 +1,7 @@
 ---
 title: "Bizzare things power distribution company do in Nigeria"
 cover: "https://imgur.com/zeLTH2O.jpg"
-category: "article"
+category: "news"
 date: "2020-12-29"
 author: "adebola"
 featured: "true"

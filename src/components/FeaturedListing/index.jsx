@@ -29,11 +29,11 @@ class FeaturedListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div className="featured-container">
-        <div className="">
-        <Swiper
-            spaceBetween={10}
-            slidesPreview={2}
+      <div className="md-grid md-grid--no-spacing">
+        <div className="md-grid md-cell--12 mobile-fix">
+          <Swiper
+            spaceBetween={0}
+            slidesPreview={0}
             pagination={{clickable: true}}
             onSwiper={(swiper) => (swiper)}
             onSlideChange={() => ("slide change")}
@@ -54,10 +54,9 @@ class FeaturedListing extends React.Component {
           ))}
             
           </Swiper>
+        </div>
       </div>
-      </div>
-      
-          
+             
       
     );
   }

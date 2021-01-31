@@ -1,86 +1,97 @@
 @import "../../layout/theme.scss";
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 56px;
-    background-color: $md-tertiary-color;
-    z-index: 100;
-    transition:0.5s;
-}
-header.black {
-    background: $md-primary-color;
-}
-header .toolbar_nav {
-    display: flex;
-    height: 100%;
-    align-items:  center;
-    padding: 20px 20px;
-    @media (max-width: 640px - 1px) {
-        padding: 10px 16px;
+  position: fixed;
+  height: 55px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  justify-content: center;
+  align-content: center;
+  z-index: 100;
+  transition:0.5s;
+    @media (min-width: 678px) {
+      height: 65px;
+    }
+    nav {
+      padding: 0 16px;
+      padding-left: 8px;
+      height: 100%;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      @media (max-width: 359px){
+          padding-left: 0px;
+          padding-right: 8px;
       }
+        .logo{
+          display: flex;
+          justify-content: flex-start;
+            img{
+              width: 50px;
+              @media (min-width: 678px) {
+                width: 60px;
+              }
+            }
+        }
+        .title{
+            display: flex;
+            flex: 1;
+            justify-content: flex-start;
+            h2{
+                margin: 0;    
+          }
+        }
+              
+          ul {
+            margin: 0;
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            flex: 2;
+            @media (max-width: 768px) {
+                display: none;      
+            }
+            li{
+                padding: 0 16px;
+                
+              .link{
+                color: rgba(0, 0, 0, 0.87) !important;
+              }
+            }
+            .catagory-list{
+              display: flex;
+              margin: 0;
+              font-weight: 500;
+              text-transform: capitalize;
+            }
+              
+          }
+          .userlinks{
+              display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            @media (max-width: 768px) {
+                display: none;      
+            }
+          }
+          .toggle-button--con{
+            padding: 16px 8px;
+            background-color: rgba(0, 0, 0, 0.87);
+              @media (min-width: 769px ) {
+                display: none;     
+            }
+            @media (min-width: 678px) {
+              padding: 20px 8px;
+            }
+          }
+          
+          
+    }
 }
 
-header .toolbar_logo {
-    display: flex;
-    align-items:  center;
-    margin-bottom: -2px;
-    margin-left: -8px;
-    color: #232323;
-    font-weight: 600;
-    font-size: 1.8rem;
-    
-}
-header .toolbar_logo img{
-    max-width: 40px;
-}
 
-header .spacer {
-    flex: 1;
-}
-header .toolbar_nav-items ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-header .toolbar_nav-items li {
-    padding: 0 1rem;
-}
-header .toolbar_nav-items a {
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: #232323;
-    text-decoration: none;
-}
-header .toolbar_nav-items .active{
-    border-bottom: 2px solid $md-secondary-color;
-}
-header .toolbar_nav-items a:hover,
-header .toolbar_nav-items a:active {
-    color: $md-secondary-color;
-}
-@media (max-width: 1025px){
-    header .toolbar_nav-items a {
-        font-size: 1rem;
-    }
-    
-}
 
-@media (max-width: 768px) {
-    header .toolbar_nav-items, header .userlinks {
-        display: none;
-    }
-    header .toolbar_logo img{
-        max-width: 35px;
-    }
-    header .toolbar_logo{
-        font-size: 1.4rem;
-    }
-}
 
-@media (min-width: 769px) {
-    header .toolbar_toggle-button {
-        display: none;
-    }
-}
+

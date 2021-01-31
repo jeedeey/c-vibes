@@ -1,11 +1,11 @@
 ---
 title: "Celebrate the year with Jaywon evergeen hit song"
 cover: "https://imgur.com/S2S9Qud.jpg"
-category: "music"
+category: "entertainment"
 date: "2021-01-01"
 author: "C-Vibe Team"
 tags:
-    - vibes
+    - music
     
 ---
 

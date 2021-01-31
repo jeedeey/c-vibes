@@ -1,12 +1,12 @@
 ---
 title: "viral video Ability drop by the King of music (Jawon)"
 cover: "jawon-12-27-2020.jpg"
-category: "music"
+category: "entertainment"
 date: "2020-12-27"
 author: "C-Vibe Team"
 featured: "true"
 tags:
-    - viral
+    - music
     
 ---
 

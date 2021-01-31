@@ -1,17 +1,12 @@
 @import "../../layout/theme.scss";
 
-.toggle_button-wrap{
-    background: $md-primary-color;
-    height: 100%;
-    width: 40px;
-    padding: 38% 0;
-}
 .toggle-button {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 25px;
-    width: 30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    width: 28px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -23,5 +18,5 @@
 .toggle-button_line {
     width: 28px;
     height: 3px;
-    background: white;
+    background: #fff;
 }

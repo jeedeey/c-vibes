@@ -1,27 +1,17 @@
-.featured-container{
-    margin: 30px 8px;
-    margin-bottom: 40px;
-    padding: 8px;
-    @media (max-width: 359px) {
-        padding: 0;
-    }
-    @media (min-width: 1000px) {
-        max-width: 70%;
-        align-items: center;
+@import "../../layout/theme.scss";
+.featured-post{
+    h2.md-card-title--title{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-.featured-card{
-    padding: 8px;
-    padding-bottom: 10px;
-}
-
 .swiper-button-prev,
 .swiper-button-next{
-    background: orange;
+    background: $md-secondary-color;
     color: white;
 }
 .swiper-pagination-bullet{
-    background: orange;
+    background: $md-secondary-color;
     font-size: medium;
 }
 .swiper-scrollbar{

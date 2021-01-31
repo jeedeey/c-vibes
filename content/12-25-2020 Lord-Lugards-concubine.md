@@ -1,7 +1,7 @@
 ---
 title: "Lord Lugard acclaimed concubine named Nigeria at Lokoja"
 cover: "flora-shaw-nigeria2.png"
-category: "article"
+category: "news"
 date: "2020-12-25"
 author: "adebola"
 tags:

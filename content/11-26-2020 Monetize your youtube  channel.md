@@ -1,10 +1,10 @@
 ---
 title: "Three ways to Monetize Your YouTube channel without Google Adsense"
 cover: "monetize.jpg"
-category: "tutorial"
+category: "news"
 author: "SamJay"
 tags:
-    
+  - education
 date: "2020-11-26"
 ---
 

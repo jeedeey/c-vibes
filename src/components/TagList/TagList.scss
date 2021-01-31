@@ -1,22 +1,22 @@
 @import "../../layout/theme.scss";
 
 .tags-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    width: 100%;
+    padding: 16px;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    justify-content: center;
+  }
     
     .tags-list li a {
       display: inline-block;
       padding: 6px 16px;
-      border: 1.5px solid $md-tertiary-color;
+      margin: 1.5px;
       color: #232323;
-      text-transform: uppercase;
-      font-weight: 500;
-      font-size: small;
-      margin-top: 6px;
-      margin-right: 6px; }
+      background: #fff;
+      text-transform: capitalize;
+      font-weight: 400;
+      font-size: 14px;}
       .tags-list li a:focus, .tags-list li a:hover {
         background-color: $md-secondary-color;
         color: #ffffff; }

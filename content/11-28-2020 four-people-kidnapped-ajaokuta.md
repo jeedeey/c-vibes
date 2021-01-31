@@ -5,7 +5,7 @@ category: "news"
 date: "2020-11-28"
 author: "SamJay"
 tags:
-    - Kogi News
+    - confluence news
     
 ---
 

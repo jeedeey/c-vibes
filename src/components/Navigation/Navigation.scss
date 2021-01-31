@@ -14,33 +14,12 @@
         }
     }
 }
-.title-heading h2 {
-  display: block;
-  text-align: left;
-  color: black;
-  margin-bottom: 0px;
-  font-size: 24px; }
+.main-container{
+  margin-top: 55px;
+  @media (min-width: 678px) {
+    margin-top: 65px;
+  }
+}
 
-.catagories-list{
-  background: white;
-}
-      
-.catagories-list ib{
-  display: none;
-}
-.catagories-list li i{
-  padding-right: 5px;
-}
-.catagories-list li a {
-    display: block;
-    padding: 10px 0;
-    text-transform: capitalize;
-    color: #232323;
-    font-weight: 500 ; }
-    @media only screen and (max-width: 767px) {
-      
-    }
-    .catagories-list li a:focus, .catagories-list li a:hover {
-      color: $md-secondary-color; }
   
   

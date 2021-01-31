@@ -4,8 +4,10 @@ import { graphql } from "gatsby";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
 import Layout from "../layout";
-import Breadcumb from "../components/Breadcumb";
+import Advert from "../components/Advert";
 import UserInfo from "../components/UserInfo";
+import CategoryList from "../components/CategoryList";
+import TagList from "../components/TagList";
 import Disqus from "../components/Disqus";
 import PostTags from "../components/PostTags";
 import PostCover from "../components/PostCover";
@@ -60,7 +62,7 @@ export default class PostTemplate extends React.Component {
 
     const coverHeight = mobile ? 180 : 350;
     return (
-      <Layout location={location}>
+      <Layout location={this.props.location} title="ConfluenceVibes">
         <div className="post-page md-grid md-grid--no-spacing">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
@@ -73,10 +75,9 @@ export default class PostTemplate extends React.Component {
             coverClassName="md-grid md-cell--9 post-cover"
           />
           <div
-            className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
+            className={`md-grid md-cell--10 post-page-contents mobile-fix ${postOverlapClass}`}
           >
-            <Card className="md-grid md-cell md-cell--12 post">
-              <Breadcumb title="detail"/>
+            <Card className="post-content-left md-grid md-cell md-cell--12 post">
               <CardText className="post-body">
                 <h1 className="md-display-2 post-header">{post.title}</h1>
                 <PostInfo postNode={postNode} />
@@ -91,12 +92,19 @@ export default class PostTemplate extends React.Component {
                 />
               </div>
             </Card>
-            <UserInfo
+            <div className="post-content-right" >
+              <div className="md-grid md-grid--no-spacing">
+                <Advert />
+              </div>
+              <UserInfo
               className="md-grid md-cell md-cell--12"
               author={author} 
               expanded={expanded}
-            />
-            <Disqus postNode={postNode} expanded={expanded} />
+              />
+              <Disqus postNode={postNode} expanded={expanded} />
+              <CategoryList />
+              <TagList/>
+            </div>  
           </div>
 
           <PostSuggestions

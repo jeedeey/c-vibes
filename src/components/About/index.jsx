@@ -7,20 +7,19 @@ import "./About.scss";
 
 class About extends Component {
   render() {
-    const { expanded } = this.props;
     return (
-      <div className="md-grid mobile-fix">
+      <div className="about-container md-grid mobile-fix">
         <Card className="md-grid md-cell--8">
           <div className="about-wrapper">
             <img
-              src={config.siteLogo}
+              src={config.userAvatar}
               className="about-img"
               alt={config.userName}
             />
-            <CardText className="about-text md-body-1">
-              <p >{config.siteDescription}</p>
+            <CardText>
+              <p className="about-text md-body-1">{config.userDescription}</p>
             </CardText>
-            <UserLinks labeled={expanded} config={config} />
+            <UserLinks labeled config={config} />
           </div>
         </Card>
       </div>

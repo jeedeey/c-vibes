@@ -3,43 +3,56 @@
 .footer {
   justify-content: center;
   align-content: center;
-  background-color: $md-primary-color;
-  padding: 20px 20px;
-  @media (max-width: 640px - 1px) {
-    padding: 10px 16px;
-  }
+  background-color:  rgba(0, 0, 0, 0.87);
+  padding: 16px 16px 16px;
   .notice-container {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-top: 25px;
     @media (max-width: 640px - 1px) {
       flex-direction: column;
     }
-
-    .copyright {
+    .footer-user--link {
       display: flex;
       flex: 1;
       justify-content: flex-start;
-      
-      
-    }
-
-    .rss {
-      display: flex;
-
       @media (max-width: 640px - 1px) {
-        display: none;
+        
       }
-
-      flex: 1;
-      justify-content: center;
     }
-
     .based-on {
       display: flex;
       flex: 1;
+      justify-content: center;
+      @media (max-width: 640px - 1px) {
+      }
+    }
+
+    h4 {
+      color: $md-tertiary-color;
+      text-align: center;
+    }
+    h6 {
+      color: $md-primary-color;
+      text-align: center;
+      @media (min-width: 640px - 1px) {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+    .copyright {
+      display: flex;
+      flex: 1;
       justify-content: flex-end;
+      @media (max-width: 640px - 1px) {
+      }
+    } 
+  }
+  .footer-link{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    @media (min-width: 640px - 1px) {
     }
   }
 }
@@ -50,37 +63,4 @@
   bottom: 0;
   right: 0;
   z-index: 15;
-}
-
-.single-footer-widget {
-  margin-bottom: 30px; 
-  
-}
-.single-footer-widget h5 {
-  font-weight: 600;
-  font-size: 1.3rem;
-  text-align: left;
-  background: darken($md-tertiary-color, 10%);
-  border-left: 4px solid $md-secondary-color;
-  padding: 0px 20px;
-  margin: 16px 0px !important;
-  
-  
-}
-.single-footer-widget p {
-  color: #ffffff;
-  font-size: 14px;
-}
-.copywrite-content p {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #a6a6a6;
-  margin-bottom: 0; 
-}
-.copywrite-content p a {
-  margin-left: 1%;
-  color: $md-secondary-color; 
-}
-.copywrite-content p a:focus, .copywrite-content p a:hover {
-  color: #a6a6a6; 
 }

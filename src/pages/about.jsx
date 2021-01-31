@@ -16,8 +16,8 @@ class AboutPage extends Component {
             <link rel="canonical" href={`${config.siteUrl}/about/`} />
           </Helmet>
           <Background />
-          <Breadcumb title="About"/>
-          <About />
+            <Breadcumb title="About"/>
+            <About />
         </div>
       </Layout>
     );

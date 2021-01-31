@@ -35,14 +35,14 @@ class FeaturedPreview extends Component {
     /* eslint no-undef: "off" */
     const coverHeight = mobile ? 162 : 225;
     return (
-      <Card key={postInfo.path}  className="featured-card">
+      <Card raise key={postInfo.path} style={{marginBottom: "0"}}  className="featured-post md-grid md-cell md-cell--12">
         
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
           <Media style={{ height: coverHeight, padding: "0px" }}>
             <PostCover postNode={postInfo} coverHeight={coverHeight} />
             <MediaOverlay>
-              <CardTitle>
-                <h2 style={{lineHeight: "1.3", marginBottom: "0", whiteSpace: "normal"}} className="md-card-title--large md-cell--center md-text">{postInfo.title}</h2>
+              <CardTitle title={postInfo.title}>
+              
               </CardTitle>
             </MediaOverlay>
           </Media>

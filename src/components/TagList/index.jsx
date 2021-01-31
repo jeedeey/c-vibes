@@ -19,7 +19,13 @@ class All extends Component {
           }
           `}
           render={data => (
+            <div className="">
+              <div className="">
                 <Tags tags={data.tagsGroup.group} />
+              </div>
+            </div>
+            
+                
               
           )}
         />

@@ -5,7 +5,7 @@ category: "news"
 date: "2020-11-11"
 author: "dejitaiwo"
 tags:
-    - ksp news
+    - education
     
 ---
 

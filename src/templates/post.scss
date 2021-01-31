@@ -18,10 +18,27 @@ $phone-status-bar-height: 24px - 12px;
 }
 
 .post-page-contents {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 752px;
-
+    @media (min-width: 768px){
+        flex-wrap: nowrap;
+    }
+    .post-content-left{
+        width: 100%;
+        @media (min-width: 768px){
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%;
+        }
+    }
+    .post-content-right{
+        width: 100%;
+        @media (min-width: 768px){
+            flex: 0 0 33.33333%;
+            width: 33.33333%;
+        }
+    }
     .gatsby-resp-image-wrapper {
         z-index: 6 !important;
     }
@@ -61,7 +78,7 @@ $phone-status-bar-height: 24px - 12px;
             > h4,
             > h5,
             > h6 {
-                margin-top: 30px;
+                margin-top: 20px;
                 margin-bottom: 10px !important;
             }
 

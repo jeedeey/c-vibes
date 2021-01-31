@@ -5,6 +5,9 @@ import Layout from "../layout";
 import Background from "../components/BackgroundImage";
 import Breadcumb from "../components/Breadcumb";
 import PostListing from "../components/PostListing";
+import Advert from "../components/Advert";
+import CategoryList from "../components/CategoryList";
+import TagList from "../components/TagList";
 import config from "../../data/SiteConfig";
 
 export default class TagTemplate extends React.Component {
@@ -22,9 +25,16 @@ export default class TagTemplate extends React.Component {
             <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}/tag/${tag}`} />
           </Helmet>
-          <Background />
-          <Breadcumb title={`Tagged in ${tag.charAt(0).toUpperCase() + tag.slice(1)}`}/>
-          <PostListing postEdges={postEdges} />
+          <div className="full-screen-fix">
+            <div className="fix-left">
+              <PostListing postEdges={postEdges} title={`Tagged in ${tag.charAt(0).toUpperCase() + tag.slice(1)}`}/>
+            </div>
+            <div className="fix-right">
+              <Advert />
+              <CategoryList/>
+              <TagList/>
+            </div>
+          </div>
         </div>
       </Layout>
     );

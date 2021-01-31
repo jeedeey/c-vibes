@@ -5,7 +5,7 @@ category: "news"
 date: "2020-10-25"
 author: "dejitaiwo"
 tags:
-    - crisis
+    - confluence news
 ---
 
 As discovery of covid-19 pallative warehouses trend continues across the country, it took a different dimension in Lokoja, Kogi State on sunday 25th october, 2020. A tension soaked atmosphere was experienced in Felele-Lokoja as rampaging youth embark on a looting spree at the Agricultural Development Project office, Lokoja carting away items such as fertilizers, chemicals, fans, office chairs/tables, computers, spraying machines, pumping machines, photocopier, printers, whelbarrow etc.

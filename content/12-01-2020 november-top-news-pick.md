@@ -5,8 +5,7 @@ category: "news"
 date: "2020-12-01"
 author: "SamJay"
 tags:
-    - Top picks
-    - Trends
+    - reviews
     
 ---
 

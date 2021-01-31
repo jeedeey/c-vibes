@@ -8,7 +8,6 @@ class Advert extends Component {
   render() {
     
     return (
-      <Card raise className="md-grid md-cell md-cell--12">
         <StaticQuery
       query={graphql`
       query {
@@ -22,20 +21,23 @@ class Advert extends Component {
       }
     `}
         render={data => (
-          <BackgroundImage
-          className="masthead-advert"
-          fluid={data.desktop.childImageSharp.fluid}
-          fadeIn
-        >
-          <div className="black-overlay-advert">
-            <div className="content-box-advert">
+            <div className="md-grid md-cell md-cell--12 mobile-fix">
+            <BackgroundImage
+              className="masthead-advert"
+              fluid={data.desktop.childImageSharp.fluid}
+              fadeIn
+            >
+              <div className="black-overlay">
+                <div className="content-box">
               
-            </div>
-          </div>
+                </div>
+              </div>
         </BackgroundImage>
+        </div>
+          
         )}
       />
-      </Card>
+      
       
     );
   }
