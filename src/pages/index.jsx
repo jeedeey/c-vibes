@@ -15,6 +15,8 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
+    const postsPerPage = 6;
+    const numPages = Math.ceil(this.props.data.allMarkdownRemark.totalCount / postsPerPage)
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout location={this.props.location} title="home">
@@ -28,6 +30,7 @@ class Index extends React.Component {
             <div className="fix-left">
               <FeaturedListing postEdges={postEdges} />
               <PostListing postEdges={postEdges} />
+              <PaginationLinks currentPage={1} numPages={numPages} />
             </div>
             <div className="fix-right">
               <Advert />

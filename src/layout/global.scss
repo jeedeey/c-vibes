@@ -19,15 +19,19 @@
     }
     
     .fix-left{
+        margin-top: 20px;
         width: 100%;
         @media (min-width: 768px){
+            margin-top: 30px;
             flex: 0 0 66.66667%;
             max-width: 66.66667%;
         }
     }
     .fix-right{
+        margin-top: 10px;
         width: 100%;
         @media (min-width: 768px){
+            margin-top: 30px;
             flex: 0 0 33.33333%;
             width: 33.33333%;
         }

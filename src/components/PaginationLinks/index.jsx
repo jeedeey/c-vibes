@@ -2,9 +2,9 @@ import React from "react";
 import { Pagination, PaginationItem, PaginationLink} from "reactstrap";
 import "./PaginationLinks.scss"
 
-const PaginationLinks = ({currentPage, numberOfPages}) => { 
+const PaginationLinks = ({currentPage, numPages}) => { 
       const isFirst = currentPage === 1
-      const isLast = currentPage === numberOfPages
+      const isLast = currentPage === numPages
       const previousPage = currentPage - 1 === 1 ? '/' : '/page/' + (currentPage - 1).toString()
       const nextPage = '/page/' + (currentPage + 1).toString()
     return (
@@ -22,19 +22,22 @@ const PaginationLinks = ({currentPage, numberOfPages}) => {
                 </PaginationLink>
             </PaginationItem>
         )}
-        {Array.from({ length: numberOfPages }, (_, index) => currentPage === index + 1 ? (
-            <PaginationItem active key={`page-number${index + 1}`}>
-                <PaginationLink href={`/${index === 0 ? '' : 'page/' + (index + 1)}`}>
+        {Array.from({ length: numPages }, (_, i) =>
+            currentPage === i + 1 ? (
+                <PaginationItem active key={`page-number${i + 1}`}>
+                    <PaginationLink href={`/${i === 0 ? '' : 'page/' + (i + 1)}`}>
                     {i + 1}
-                </PaginationLink>
-            </PaginationItem>
-        ) : (
-            <PaginationItem key={`page-number${index + 1}`}>
-                <PaginationLink href={`/${index === 0 ? '' : 'page/' + (index + 1)}`}>
+                    </PaginationLink>
+                </PaginationItem>
+            ) : (
+                <PaginationItem key={`page-number${i + 1}`}>
+                    <PaginationLink href={`/${i === 0 ? '' : 'page/' + (i + 1)}`}>
                     {i + 1}
-                </PaginationLink>
-            </PaginationItem>
-        ))}
+                    </PaginationLink>
+               </PaginationItem>
+            )
+        )}
+
         {isLast ? (
             <PaginationItem disabled>
              <PaginationLink next href={nextPage} />
@@ -45,7 +48,7 @@ const PaginationLinks = ({currentPage, numberOfPages}) => {
             </PaginationItem>
         )}
       </Pagination>
-    );
+    )
 }
 
 export default PaginationLinks;
