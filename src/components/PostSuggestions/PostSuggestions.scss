@@ -1,10 +1,11 @@
 @import "../../layout/theme.scss";
 
 .post-suggestions {
+  margin-top: 20px;
   display: flex;
   flex-wrap: nowrap !important;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #fafafa;
 
   .hide-on-mobile {
     @media (max-width: 360px - 1px) {
@@ -15,19 +16,34 @@
   .post-suggestion {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    color: $md-secondary-color !important;
+    margin: 0 15px;
 
     .headline-container {
       margin-right: 10px;
       margin-left: 10px;
-      @media (max-width: 640px - 1px) {
-        
+      :hover{
+        color: $md-secondary-color !important;
       }
+    }
+
+    .arrow-nav {
+      margin-top: 15px;
+    }
+    .arrow-nav:hover{
+      color: $md-secondary-color !important;
     }
   }
 
   .secondary-color {
-    color: #a6a6a6;
+    color: $md-secondary-color !important;
+  }
+  @media (max-width: 768px - 1px){
+    .md-headline {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  .md-headline{
+    color: rgba(0, 0, 0, 0.54);
   }
 }

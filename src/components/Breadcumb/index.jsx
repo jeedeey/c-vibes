@@ -6,10 +6,10 @@ class Breadcumb extends Component {
   render() {
     const title  = this.props.title;
     return (
-          <div className="breadcumb--con md-grid">
+          <div className="breadcumb--con">
             <nav aria-current="breadcrumb">
               <ol className="breadcrumb">
-                <li className="breadcrumb-item"><Link to="/"><i className="fa fa-home"></i> Home</Link></li>
+                <li className="breadcrumb-item"><Link to="/"><i className="fa fa-list"></i> all post</Link></li>
                 <li className="breadcrumb-item active" aria-current="page">{title}</li>
               </ol>
             </nav>

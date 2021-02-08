@@ -3,6 +3,7 @@ import Card from "react-md/lib/Cards/Card";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import Breadcumb from "../components/Breadcumb";
 import Background from "../components/BackgroundImage";
 import FeaturedListing from "../components/FeaturedListing";
 import PostListing from "../components/PostListing";
@@ -15,7 +16,7 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postsPerPage = 6;
+    const postsPerPage = 12;
     const numPages = Math.ceil(this.props.data.allMarkdownRemark.totalCount / postsPerPage)
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
@@ -29,6 +30,7 @@ class Index extends React.Component {
           <div className="full-screen-fix">
             <div className="fix-left">
               <FeaturedListing postEdges={postEdges} />
+              <div className="breadcumb-after--disable"><Breadcumb/></div>
               <PostListing postEdges={postEdges} />
               <PaginationLinks currentPage={1} numPages={numPages} />
             </div>
@@ -51,7 +53,7 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 6
+      limit: 12
       sort: { fields: [fields___date], order: DESC }
     ) {
       totalCount

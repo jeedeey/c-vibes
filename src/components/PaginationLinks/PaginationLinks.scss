@@ -1,3 +1,4 @@
+
 nav{
     display: block;
     ul{
@@ -8,6 +9,7 @@ nav{
     .pagination {
         display: -ms-flexbox;
         display: flex;
+        justify-content: center;
         padding-left: 0;
         list-style: none;
         border-radius: 0.25rem;
@@ -34,10 +36,9 @@ nav{
     }
     .page-link:hover {
         z-index: 2;
-        color: #fff;
         text-decoration: none;
-        background-color: gray;
-        border-color: #dee2e6;
+        background-color: transparent;
+        border-color: transparent;
     }
     .page-item:first-child .page-link {
         margin-left: 0;

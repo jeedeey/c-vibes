@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
 import Layout from "../layout";
+import Breadcumb from "../components/Breadcumb";
 import Advert from "../components/Advert";
 import UserInfo from "../components/UserInfo";
 import CategoryList from "../components/CategoryList";
@@ -78,6 +79,7 @@ export default class PostTemplate extends React.Component {
             className={`md-grid md-cell--10 post-page-contents mobile-fix ${postOverlapClass}`}
           >
             <Card className="post-content-left md-grid md-cell md-cell--12 post">
+              <div className="breadcumb-after--disable"><Breadcumb/></div>
               <CardText className="post-body">
                 <h1 className="md-display-2 post-header">{post.title}</h1>
                 <PostInfo postNode={postNode} />

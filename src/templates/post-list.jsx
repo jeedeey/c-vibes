@@ -24,6 +24,7 @@ class PostList extends React.Component {
           </Helmet>
           <div className="full-screen-fix">
             <div className="fix-left">
+            <div><Breadcumb title={`${currentPage}`}/></div>
               <PostListing postEdges={postEdges} />
               <PaginationLinks currentPage={currentPage} numPages={numPages} />
             </div>

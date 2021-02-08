@@ -11,14 +11,17 @@ import "./ToolBar.scss"
 class Toolbar extends Component {
     render() {
       return (
-        <header >
+        <header>
           <nav> 
             <div className="logo">
               <Link to="/"><img src={Logo}/></Link>
             </div>            
             <div className="title">
               <Link to="/">
-                <h2 > {config.siteTitle} </h2> 
+                <div className="title-con">
+                  <a className="title-1"> Confluence</a>
+                  <a className="title-2">vibes</a>
+                </div>
               </Link>
             </div>
             

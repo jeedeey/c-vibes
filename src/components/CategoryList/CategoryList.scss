@@ -4,15 +4,17 @@
   text-transform: uppercase;
   font-weight: 600 ;
   li{
-    padding: 10px 16px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #Fff;
+    margin: 0 16px;
     .link{
       color: #2c2b2b;
        }
-      @media only screen and (max-width: 767px) {
-          
-      }
-      .link:focus, .link:hover {
+      .link:hover {
         color: $md-secondary-color; 
       }
+      @media (max-width: 360px - 1px) {
+        margin: 0 8px
+    }
   }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Background from "../components/BackgroundImage";
+import FeaturedListing from "../components/FeaturedListing";
 import Breadcumb from "../components/Breadcumb";
 import PostListing from "../components/PostListing";
 import Advert from "../components/Advert";
@@ -30,9 +31,9 @@ export default class CategoryTemplate extends React.Component {
               href={`${config.siteUrl}/categories/${category}`}
             />
           </Helmet>
-          <Background />
           <div className="full-screen-fix">
             <div className="fix-left">
+            <FeaturedListing postEdges={postEdges} />
               <Breadcumb title={category.charAt(0).toUpperCase() + category.slice(1)} />
               <PostListing postEdges={postEdges} />
             </div>

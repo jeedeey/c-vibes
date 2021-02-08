@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Background from "../components/BackgroundImage";
+import FeaturedListing from "../components/FeaturedListing";
 import Breadcumb from "../components/Breadcumb";
 import PostListing from "../components/PostListing";
 import Advert from "../components/Advert";
@@ -27,7 +28,9 @@ export default class TagTemplate extends React.Component {
           </Helmet>
           <div className="full-screen-fix">
             <div className="fix-left">
-              <PostListing postEdges={postEdges} title={`Tagged in ${tag.charAt(0).toUpperCase() + tag.slice(1)}`}/>
+              <FeaturedListing postEdges={postEdges} />
+              <Breadcumb title={`Tagged in ${tag.charAt(0).toUpperCase() + tag.slice(1)}`} />
+              <PostListing postEdges={postEdges}/>
             </div>
             <div className="fix-right">
               <Advert />

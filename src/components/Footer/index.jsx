@@ -20,17 +20,19 @@ class Footer extends Component {
             {userLinks ? <UserLinks config={config} labeled /> : null}
           </div>
           <div className="based-on">
-            <h4>
+            <h5>
               Site based on {" "}
-                puplishing articles on entertainment, history, Lifestyle, news, and sport
-            </h4>
+              publishing articles on entertainment, history, Lifestyle, news, and sport.
+            </h5>
           </div>
           <div className="copyright">
             <h6>{copyright}</h6>
           </div>
         </div>
         <div className="footer-link">
-          <h4>privacy</h4>
+          <Link className="privacy" to="/privacy">privacy</Link>
+          <Link className="terms" to="/terms">terms</Link>
+          <Link to="/contact">contact</Link>
         </div>
           
       </footer>

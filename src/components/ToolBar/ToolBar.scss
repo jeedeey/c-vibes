@@ -1,7 +1,7 @@
 @import "../../layout/theme.scss";
 header {
   position: fixed;
-  height: 55px;
+  height: 50px;
   top: 0;
   left: 0;
   right: 0;
@@ -11,7 +11,7 @@ header {
   z-index: 100;
   transition:0.5s;
     @media (min-width: 678px) {
-      height: 65px;
+      height: 60px;
     }
     nav {
       padding: 0 16px;
@@ -21,16 +21,30 @@ header {
       align-content: center;
       align-items: center;
       @media (max-width: 359px){
-          padding-left: 0px;
+          padding-left: 8px;
           padding-right: 8px;
       }
+      @media (min-width: 768px),(max-width: 850px){
+        
+    }
         .logo{
           display: flex;
           justify-content: flex-start;
+          border-radius: 100%;
+          background: $md-tertiary-color;
+          margin-top: 8px;
+          margin-left: 5px;
+          @media (max-width: 359px){
+            margin-left: -7px;
+        }
             img{
-              width: 50px;
+              width: 55px;
+              margin: -5px -2px;
+              @media (max-width: 359px){
+                width: 50px;
+            }
               @media (min-width: 678px) {
-                width: 60px;
+                width: 65px;
               }
             }
         }
@@ -38,13 +52,37 @@ header {
             display: flex;
             flex: 1;
             justify-content: flex-start;
-            h2{
-                margin: 0;    
-          }
+            .title-con{
+              padding-top: 6px;
+              padding-left: 4px;
+              display: flex;
+              font-size: 22px;
+              font-weight: 500;
+              color: rgba(0, 0, 0, 0.87);
+              .title-2{
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.57);
+                font-size: 26px;
+                @media (max-width: 359px){
+                  font-size: 24px;
+              }
+                @media (min-width: 678px) {
+                  font-size: 28;
+                }
+              }
+              @media (max-width: 359px){
+                font-size: 20px;
+            }
+              @media (min-width: 678px) {
+                font-size: 25px;
+
+              }
+            }
         }
               
           ul {
             margin: 0;
+            padding-right: 0;
             width: 100%;
             list-style: none;
             display: flex;
@@ -54,17 +92,36 @@ header {
                 display: none;      
             }
             li{
-                padding: 0 16px;
-                
+                display: flex;
+                margin: auto 6px;
+                text-transform: capitalize;
+                font-weight: 500;
+                font-size: 16px;
               .link{
                 color: rgba(0, 0, 0, 0.87) !important;
               }
+              @media (min-width: 891px) {
+                font-size: 18px;
+                margin: auto 10px;
+            }
+            @media (min-width: 1067px) {
+              justify-content: center;
+              margin: auto 15px;
+          }
             }
             .catagory-list{
               display: flex;
-              margin: 0;
-              font-weight: 500;
-              text-transform: capitalize;
+              li{
+                margin: auto 6px;
+                @media (min-width: 891px) {
+                  font-size: 18px;
+                  margin: auto 10px;
+              }
+              @media (min-width: 1067px) {
+                justify-content: center;
+                margin: auto 15px;
+            }
+              }
             }
               
           }
@@ -77,13 +134,8 @@ header {
             }
           }
           .toggle-button--con{
-            padding: 16px 8px;
-            background-color: rgba(0, 0, 0, 0.87);
               @media (min-width: 769px ) {
                 display: none;     
-            }
-            @media (min-width: 678px) {
-              padding: 20px 8px;
             }
           }
           

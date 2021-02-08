@@ -147,7 +147,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
-  const postsPerPage = 6
+  const postsPerPage = 12
   const numPages = Math.ceil(postsEdges.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     const isFirstPage = i === 0

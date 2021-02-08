@@ -28,8 +28,8 @@
       }
     }
 
-    h4 {
-      color: $md-tertiary-color;
+    h5 {
+      color: #fff;
       text-align: center;
     }
     h6 {
@@ -53,6 +53,16 @@
     flex: 1;
     justify-content: center;
     @media (min-width: 640px - 1px) {
+    }
+    a{
+      color: $md-primary-color;
+      padding: 0 20px;
+    }
+    a:hover{
+      color: $md-secondary-color;
+    }
+    .terms, .privacy{
+      border-right: 2px solid $md-primary-color;
     }
   }
 }

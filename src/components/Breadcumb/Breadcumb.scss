@@ -1,8 +1,16 @@
 
 .breadcumb--con .breadcrumb {
+  margin: 0;
+  padding: 0 16px;
     display: flex;
     list-style: none;
     background-color: transparent;
+    @media (max-width: 360px - 1px) {
+      padding: 0 8px;
+  }
+  i{
+    padding-right: 4px;
+  }
   }
     .breadcumb--con .breadcrumb .breadcrumb-item,
     .breadcumb--con .breadcrumb .breadcrumb-item > a,
@@ -18,12 +26,6 @@
         .breadcumb--con .breadcrumb .breadcrumb-item > a,
         .breadcumb--con .breadcrumb .breadcrumb-item.active {
           font-size: 14px; } }
-      .breadcumb--con .breadcrumb .breadcrumb-item:focus, .breadcumb--con .breadcrumb .breadcrumb-item:hover,
-      .breadcumb--con .breadcrumb .breadcrumb-item > a:focus,
-      .breadcumb--con .breadcrumb .breadcrumb-item > a:hover,
-      .breadcumb--con .breadcrumb .breadcrumb-item.active:focus,
-      .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
-        color: orange; }
     .breadcumb--con .breadcrumb .breadcrumb-item.active {
       color: #a6a6a6; }
       .breadcumb--con .breadcrumb .breadcrumb-item.active:focus, .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {

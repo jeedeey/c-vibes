@@ -1,6 +1,7 @@
 @import "./theme.scss";
 
 .full-screen-fix {
+    
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
@@ -15,7 +16,7 @@
         max-width: 850px;
     }
     @media (min-width: 1000px){
-        max-width: 1250px;
+        max-width: 1230px;
     }
     
     .fix-left{
@@ -39,61 +40,17 @@
 }
 
 
-.widget-spacing{
-        padding: 8px;
-        margin: 20px 0px;
-    }
-.display-con{
-    padding: 30px 16px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    @media (max-width: 359px) {
-        padding: 8px;
-    }
-    @media (min-width: 640px){
-        max-width: 960px;
-        
-    }
-    @media (min-width: 1200px) {
-        max-width: 1140px;
-    }
-    @media (min-width: 768px){
-        flex-wrap: nowrap;
-    }
-
-}
-.sidebar-70{
-    width: 100%;
-    @media (min-width: 768px){
-        margin-right: 22px;
-        flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
-    @media (min-width: 1200px) {
-        flex: 0 0 66.66667%;
-        max-width: 66.66667%;
-        margin-right: 24px;
-    }
-}
-.sidebar-30{
-    width: 100%;
-    @media (min-width: 768px){
-        flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
-    @media (min-width: 1200px) {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
-    }
-}
 
 div .mobile-fix {
     @media (max-width: 360px - 1px) {
         padding-left: 0;
         padding-right: 0;
     }
+}
+.breadcumb-after--disable{
+    padding-top: 10px;
+    .breadcumb--con .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+        display: none;}
 }
 
 .widget-title{

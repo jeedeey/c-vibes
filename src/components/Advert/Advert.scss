@@ -9,17 +9,15 @@
     margin: 0;
    /* margin-bottom: 10px; */
    .black-overlay {
-    display: -webkit-flex;
     display: flex;
     height: 100%;
-    align-items: flex-end;
+    align-items: center;
        .content-box {
         max-width: 700px;
-        margin: 0 auto;
-           .p, h1, h2 {
+        margin: auto auto;
+           .link {
             color: rgb(255, 181, 43);
             font-weight: 600;
-            font-size: large;
         
           }
        }

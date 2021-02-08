@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 import BackgroundImage from 'gatsby-background-image';
 import "./Advert.scss";
 
@@ -11,7 +11,7 @@ class Advert extends Component {
         <StaticQuery
       query={graphql`
       query {
-        desktop: file(relativePath: { eq: "designbanner.png" }) {
+        desktop: file(relativePath: { eq: "advert.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1800) {
               ...GatsbyImageSharpFluid
@@ -29,7 +29,8 @@ class Advert extends Component {
             >
               <div className="black-overlay">
                 <div className="content-box">
-              
+                  <h1>Advertise here!</h1>
+                  <Link to="/contact"><button>contact us</button></Link>
                 </div>
               </div>
         </BackgroundImage>
