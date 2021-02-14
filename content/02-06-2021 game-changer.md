@@ -1,7 +1,7 @@
 ---
 title: " Dr. Usman Ogbo: The Game Changer with an Uncommon Touch"
 cover: "ogbo's.jpg"
-category: "News"
+category: "news"
 date: "2021-02-08"
 author: "dejitaiwo"
 tags:

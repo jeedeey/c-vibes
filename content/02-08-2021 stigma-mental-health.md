@@ -1,7 +1,7 @@
 ---
 title: "Stigma, Mental Health Literacy and the Nigeria YOUTH"
 cover: "stigma-health-08-02-2021.jpg"
-category: "Lifestyle"
+category: "lifestyle"
 date: "2021-02-08"
 author: "Toni Tola"
 tags:

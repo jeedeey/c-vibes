@@ -1,7 +1,7 @@
 ---
 title: "The Road to Death – Felele / Abuja"
 cover: "road-to-dealth.jpg"
-category: "News"
+category: "news"
 date: "2021-02-08"
 featured: "true"
 author: "C-Vibe Team"
