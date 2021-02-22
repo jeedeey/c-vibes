@@ -1,4 +1,18 @@
 const authors = [
+{
+    name: "Future",
+    imageUrl: "",
+    bio: "I am a futurist, who believe in the power of human beings to shape his environment and also a life long student of history" ,
+    field: "writer",
+    location: "lkj",
+    authorTwitter: "",
+    userLinks: [
+        {
+          url: "https://facebook.com/ibitomi.otunola",
+          iconClassName: "fa fa-facebook",
+        },
+      ],
+  },
   {
     name: "Toni Tola",
     imageUrl: "./assets/tola-toni.jpg",
@@ -11,6 +25,10 @@ const authors = [
           url: "https://facebook.com/adetola.falokun",
           iconClassName: "fa fa-facebook",
         },
+{
+          url: "https://www.linkedin.com/in/ibitomi-otunola-72960a193",
+          iconClassName: "fa fa-linkedin",
+        },
       ],
   },
   {
@@ -22,7 +40,7 @@ const authors = [
     authorTwitter: "",
     userLinks: [
         {
-          url: "https://facebook.com",
+          url: "",
           iconClassName: "fa fa-facebook",
         },
         {
