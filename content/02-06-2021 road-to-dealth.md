@@ -4,7 +4,7 @@ cover: "road-to-dealth.jpg"
 category: "news"
 date: "2021-02-08"
 featured: "true"
-author: "C-Vibe Team"
+author: "Future"
 tags:
     - latest update
     
