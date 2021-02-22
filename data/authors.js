@@ -1,10 +1,10 @@
 const authors = [
 {
     name: "Future",
-    imageUrl: "",
+    imageUrl: "./assets/future.jpg",
     bio: "I am a futurist, who believe in the power of human beings to shape his environment and also a life long student of history" ,
     field: "writer",
-    location: "lkj",
+    location: "abj",
     authorTwitter: "",
     userLinks: [
         {
